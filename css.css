@@ -1,8 +1,8 @@
   :root {
-    --indigo: rgb(238, 64, 54);
+    --indigo: #1D3557;
     --beige: rgb(255, 255, 255);
     --red: #E63946;
-    --blue: #1D3557;
+    --blue: rgb(238, 64, 54);
     --lilac: #A8DADC;
   }
   
