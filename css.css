@@ -90,7 +90,7 @@ a {
 }
 
 .mobilenav a.icon {
-  background: var(--color-neutral);
+  background: var(--color-highlight-three);
   display: block;
   position: absolute;
   right: 0;
