@@ -16,12 +16,12 @@ body {
 
 .page {
 	min-height:calc(100% - 130px);
+	text-align:center;
 }
 
 h1, h2, h3, p, a, li, button, input, option, select {
 			font-family: 'Raleway', sans-serif;
-	text-align:center;
-		}
+			}
 
 	h1{
 			font-size:2em;
