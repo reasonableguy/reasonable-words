@@ -1,5 +1,5 @@
   :root {
-    --color-main: red;
+    --color-main: #003366;
     --color-neutral: rgb(255, 255, 255);
     --color-highlight-one: #E63946;
     --color-highlight-two: rgb(250,175,64);
@@ -25,7 +25,7 @@ h1, h2, h3, p, a, li, button, input, option, select {
 	h1{
 			font-size:2em;
     color:var--(color-neutral);
-    background-color:var--(color-main);
+    background-color:var(--color-main);
 			padding-top:20px;
 			padding-bottom:20px;
 			text-transform: uppercase;
