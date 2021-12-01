@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	    background-color: var--(color-neutral);
+	    background-color: var(--color-neutral);
 }
 
 .page {
@@ -24,7 +24,7 @@ h1, h2, h3, p, a, li, button, input, option, select {
 
 	h1{
 			font-size:2em;
-    color:var--(color-neutral);
+    color:var(--color-neutral);
     background-color:var(--color-main);
 			padding-top:20px;
 			padding-bottom:20px;
@@ -34,7 +34,7 @@ h1, h2, h3, p, a, li, button, input, option, select {
 
 h2 {
 		font-size:1.8em;
-  color::var--(color-main);
+  color::var(--color-main);
 			letter-spacing:2px;
 			padding-top:20px;
 			padding-bottom:20px;
@@ -43,7 +43,7 @@ h2 {
 
 		h3 {
 			font-size:1.5em;
-      color:var--(color-highlight-one);
+      color:var(--color-highlight-one);
 			letter-spacing:2px;
 			padding-top:20px;
 			padding-bottom:20px;
@@ -51,17 +51,17 @@ h2 {
 		}
 		p {
 			font-size:1em;
-      color:var--(color-main);
+      color:var(--color-main);
 			letter-spacing:0px;
 				}
 
 a {
-			    color: var--(color-highlight-two);
+			    color: var(--color-highlight-two);
 			font-weight:500;
    			text-decoration: none;
 				}
 		a:hover {
-			    color: var--(color-highlight-three);
+			    color: var(--color-highlight-three);
 			font-weight:500;
    		}
   
