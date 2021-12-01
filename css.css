@@ -43,7 +43,7 @@ h2 {
 
 		h3 {
 			font-size:1.5em;
-      color:var(--color-highlight-one);
+      color:var(--color-highlight-two);
 			letter-spacing:2px;
 			padding-top:20px;
 			padding-bottom:20px;
@@ -56,12 +56,12 @@ h2 {
 				}
 
 a {
-			    color: var(--color-highlight-two);
+			    color: var(--color-highlight-one);
 			font-weight:500;
    			text-decoration: none;
 				}
 		a:hover {
-			    color: var(--color-highlight-three);
+			    color: var(--color-highlight-two);
 			font-weight:500;
    		}
   
