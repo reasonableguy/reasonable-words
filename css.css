@@ -2,8 +2,8 @@
     --color-main: #003366;
     --color-neutral: rgb(255, 255, 255);
     --color-highlight-one: #E63946;
-    --color-highlight-two: rgb(250,175,64);
-    --color-highlight-three: #A8DADC;
+    --color-highlight-two: #ff6347;
+    --color-highlight-three: rgb(250,175,64);;
   }
 
 html {
@@ -34,7 +34,7 @@ h1, h2, h3, p, a, li, button, input, option, select {
 
 h2 {
 		font-size:1.8em;
-  color::var(--color-main);
+  color:var(--color-main);
 			letter-spacing:2px;
 			padding-top:20px;
 			padding-bottom:20px;
