@@ -94,12 +94,11 @@ a {
 }
 
 .topnav a:hover {
-  background-color: var(--color-highlight-three);
-  color: var(--color-highlight-two);
+  filter: brightness(0.85);
+	color: var(--color-highlight-two);
 }
 
 .topnav a.active {
-  background-color: var(--color-highlight-three);
   color: var(--color-highlight-two);
 }
 
