@@ -75,36 +75,30 @@ a {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--color-neutral);
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--color-highlight-one);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 .topnav a.logo {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 5px;
-  text-decoration: none;
-  font-size: 17px;
+   padding: 5px;
 }
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: pink;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #teal;
+  color: orange;
 }
 
 .topnav .icon {
