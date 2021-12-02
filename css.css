@@ -110,6 +110,15 @@ border-bottom: 1px solid var(--color-neutral);
 .topnav .icon {
   display: none;
 }
+@media screen and (min-width: 601px) {
+
+	.desktop {
+		display:block;
+	}
+	.mobile {
+		display:none;
+	}
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -117,6 +126,12 @@ border-bottom: 1px solid var(--color-neutral);
     float: right;
     display: block;
   }
+	.desktop {
+		display:none;
+	}
+	.mobile {
+		display:block;
+	}
 }
 
 @media screen and (max-width: 600px) {
