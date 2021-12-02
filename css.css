@@ -78,6 +78,7 @@ a {
 .topnav {
   overflow: hidden;
   background-color: var(--color-neutral);
+	max-height: 51px;
 }
 
 .topnav a {
@@ -91,7 +92,7 @@ a {
 }
 .topnav a.logo {
    padding: 0px;
-	background-color: var(--color-main);
+	background-color: var(--color-highlight-three);
 }
 
 .topnav a:hover {
