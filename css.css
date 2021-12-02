@@ -92,7 +92,8 @@ a {
 }
 .topnav a.logo {
    padding: 0px;
-	background-color: var(--color-highlight-three);
+	background-color: var(--color-main);
+	max-height: 50px;
 }
 
 .topnav a:hover {
