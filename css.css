@@ -90,7 +90,8 @@ a {
   font-size: 17px;
 }
 .topnav a.logo {
-   padding: 5px;
+   padding: 0px;
+	background-color: var(--color-main);
 }
 
 .topnav a:hover {
