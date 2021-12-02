@@ -78,7 +78,9 @@ a {
 .topnav {
   overflow: hidden;
   background-color: var(--color-neutral);
-	max-height: 51px;
+border-bottom: 1px solid var(--color-neutral);
+	border-top: 1px solid var(--color-neutral);
+	border-left: 1px solid var(--color-neutral);
 }
 
 .topnav a {
