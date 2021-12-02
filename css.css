@@ -92,13 +92,13 @@ a {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: pink;
+  background-color: var(--color-highlight-three);
+  color: var(--color-highlight-two);
 }
 
 .topnav a.active {
-  background-color: #teal;
-  color: orange;
+  background-color: var(--color-highlight-three);
+  color: var(--color-highlight-two);
 }
 
 .topnav .icon {
