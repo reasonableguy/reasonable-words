@@ -99,7 +99,7 @@ a {
    padding: 0px;
 	background-color: var(--color-neutral);
 	max-height: 50px;
-	display: inline-flex;
+	
 	 
 }
 .desktop > h2 {
@@ -145,10 +145,7 @@ a {
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+
 	.desktop {
 		display:none;
 	}
