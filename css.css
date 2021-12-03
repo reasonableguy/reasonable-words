@@ -81,6 +81,7 @@ a {
 
 .topnav {
   overflow: hidden;
+	padding:5px;
   background-color: var(--color-neutral);
 border-bottom: 1px solid var(--color-neutral);
 	border-top: 1px solid var(--color-neutral);
@@ -97,7 +98,7 @@ border-bottom: 1px solid var(--color-neutral);
   font-size: 17px;
 }
 .topnav a.logo {
-   padding: 5px;
+   padding: 0px;
 	background-color: var(--color-neutral);
 	max-height: 50px;
 	 
