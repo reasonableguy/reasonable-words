@@ -77,7 +77,9 @@ a {
    		}
   /* ------------------------- NAV MOBILE ----------------------------*/
 
-
+.desktop {
+	float:left;
+}
 
 .desktop > h2 {
 	    margin-block-start: 0em;
