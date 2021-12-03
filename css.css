@@ -93,7 +93,7 @@ border-bottom: 1px solid var(--color-neutral);
   font-size: 17px;
 }
 .topnav a.logo {
-   padding: 0px;
+   padding: 5px;
 	background-color: var(--color-main);
 	max-height: 50px;
 }
