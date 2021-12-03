@@ -184,8 +184,7 @@ a {
 
 
 /* --------------------------------IMAGES--------------------*/
-.header-logo {
-	max-height:50px;
-	float:left;
+.logo {
+	max-height:100%;
 }
 
