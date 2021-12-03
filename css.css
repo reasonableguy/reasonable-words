@@ -99,6 +99,7 @@ a {
    padding: 0px;
 	background-color: var(--color-neutral);
 	max-height: 50px;
+	display: inline-flex;
 	 
 }
 .desktop > h2 {
