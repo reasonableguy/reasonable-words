@@ -191,9 +191,13 @@ a {
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .flex-grid  {
+  .flex-grid :not(.nav-grid) {
     flex-direction: column;
   }
+	
+	.nav-grid {
+		display:block;
+	}
 	
 	.flex-item.icon {
 		display:block;
