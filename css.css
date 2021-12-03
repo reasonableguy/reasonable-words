@@ -6,6 +6,10 @@
     --color-highlight-three: rgb(250,210,64);
   }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   max-width:1440px;
 	height:100%;
@@ -166,6 +170,33 @@ border-bottom: 1px solid var(--color-neutral);
     text-align: left;
   }
 }
+
+
+
+/* --------------------------------FLEX GRID--------------------*/
+
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-item {
+  background-color: transparent;
+  padding: 10px;
+  margin:10px;
+  flex: 8;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
 
 /* --------------------------------IMAGES--------------------*/
 .header-logo {
