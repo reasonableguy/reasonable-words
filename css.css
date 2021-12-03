@@ -96,6 +96,7 @@ border-bottom: 1px solid var(--color-neutral);
    padding: 5px;
 	background-color: var(--color-main);
 	max-height: 50px;
+	    float: left;
 }
 .desktop > h2 {
 	    margin-block-start: 0em;
@@ -111,6 +112,8 @@ border-bottom: 1px solid var(--color-neutral);
     display: block;
     line-height: .9em;
     padding-left: 5px;
+	    padding-bottom: 5px;
+	    padding-top: 5px;
 }
 
 
@@ -167,5 +170,6 @@ border-bottom: 1px solid var(--color-neutral);
 /* --------------------------------IMAGES--------------------*/
 .header-logo {
 	max-height:50px;
+	float:left;
 }
 
