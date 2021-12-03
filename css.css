@@ -175,7 +175,7 @@ a {
 
 /* --------------------------------FLEX GRID--------------------*/
 
-.flex-grid .topnav {
+.flex-grid {
   display: flex;
   flex-direction: row;
   text-align: center;
