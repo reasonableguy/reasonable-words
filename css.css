@@ -79,29 +79,6 @@ a {
 
 
 
-.topnav {
-  overflow: hidden;
-	padding:0;
-  background-color: var(--color-neutral);
-
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: var(--color-highlight-one);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a.logo {
-   padding: 0px;
-	background-color: var(--color-neutral);
-	max-height: 50px;
-	
-	 
-}
 .desktop > h2 {
 	    margin-block-start: 0em;
     margin-block-end: 0em;
@@ -119,39 +96,41 @@ a {
 	    padding-bottom: 5px;
 	    padding-top: 0;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 .topnav a:hover {
-  	color: var(--color-highlight-two);
+  background-color: #ddd;
+  color: black;
 }
 
 .topnav a.active {
-  color: var(--color-highlight-two);
+  background-color: #04AA6D;
+  color: white;
 }
 
 .topnav .icon {
   display: none;
 }
-@media screen and (min-width: 769px) {
 
-	.desktop {
-		display:block;
-		   float: left;
-	}
-	.mobile {
-		display:none;
-	}
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
-
-	.desktop {
-		display:none;
-	}
-	.mobile {
-		display:block;
-	}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 600px) {
