@@ -81,11 +81,9 @@ a {
 
 .topnav {
   overflow: hidden;
-	padding:5px;
+	padding:0;
   background-color: var(--color-neutral);
-border-bottom: 1px solid var(--color-neutral);
-	border-top: 1px solid var(--color-neutral);
-	border-left: 1px solid var(--color-neutral);
+
 }
 
 .topnav a {
@@ -195,12 +193,10 @@ border-bottom: 1px solid var(--color-neutral);
   .flex-container {
     flex-direction: column;
   }
-	.flex-item.logo {
-		float:left;
-	}
+	
 	.flex-item.icon {
 		display:block;
-		float:right;
+		    text-align:right;
 	}
 }
 
