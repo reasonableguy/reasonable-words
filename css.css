@@ -111,6 +111,10 @@ a {
   font-size: 17px;
 }
 
+.topnav a:first-child {
+	padding:0;
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -186,5 +190,6 @@ a {
 /* --------------------------------IMAGES--------------------*/
 .logo {
 	max-height:100%;
+	float:left;
 }
 
