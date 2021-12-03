@@ -97,6 +97,22 @@ border-bottom: 1px solid var(--color-neutral);
 	background-color: var(--color-main);
 	max-height: 50px;
 }
+.desktop > h2 {
+	    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 1.7em;
+    color: var(--color-neutral);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: left;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    line-height: .9em;
+    padding-left: 5px;
+}
+
 
 .topnav a:hover {
   filter: brightness(0.85);
