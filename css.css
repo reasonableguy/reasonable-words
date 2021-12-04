@@ -200,10 +200,17 @@ a {
   flex: 1;
 }
 
+.flex-item.services {
+  background-color: teal;
+  padding: 10px;
+  margin:10px;
+  flex: 50%;
+}
+
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .flex-grid :not(.nav-grid) {
+  .flex-grid  {
     flex-direction: column;
   }
 	
