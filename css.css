@@ -201,10 +201,9 @@ a {
 }
 
 .flex-item.services {
-  background-color: teal;
-  padding: 10px;
-  margin:10px;
-  flex: 1 1 50%;
+background-color: transparent;
+    padding: 20px;
+    flex: 1 0 50%;
 }
 
 
