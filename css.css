@@ -196,6 +196,7 @@ a {
 
 .flex-grid.section {
   max-width:1024px;
+	margin:auto;
 }
 
 .flex-item {
