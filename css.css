@@ -119,7 +119,12 @@ a {
 	padding:0;
 	min-width:175px;
 }
-
+  .topnav.responsive a {
+      float: right;
+    display: block;
+}
+	  
+	  
 .topnav a:hover {
   color: var(--color-highlight-one);
 }
@@ -151,8 +156,6 @@ a {
     top: 10px;
   }
   .topnav.responsive a {
-      float: right;
-    display: block;
     text-align: right;
 	  width:100%;
   }
