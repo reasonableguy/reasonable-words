@@ -54,7 +54,7 @@ h2 {
 .bar {
 	height: 1.8em;
     margin: 20px 0 !important;
-    padding: 0.6em 0 !important;
+    padding: 0.5em 0 !important;
 }
 .bar-color {
     background-color: var(--color-highlight-three);
