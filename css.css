@@ -132,7 +132,7 @@ a {
   display: none;
 	var(--color-main)
 }
- .topnav a:not(:first-child) {
+ .topnav a:not(:first-child),  .topnav a:not(:last-child) {
 	 float: left;
     display: block;
     text-align: right;
