@@ -132,12 +132,6 @@ a {
   display: none;
 	var(--color-main)
 }
- .topnav a:not(:first-child) {
-	 float: left;
-    display: block;
-    text-align: right;
-    width: 100%;
-	 }
 
 
 @media screen and (max-width: 600px) {
@@ -157,9 +151,10 @@ a {
     top: 10px;
   }
   .topnav.responsive a {
-    float: none;
+      float: right;
     display: block;
-    text-align: left;
+    text-align: right;
+	  width:100%;
   }
 }
 
