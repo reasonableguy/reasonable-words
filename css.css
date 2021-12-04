@@ -61,17 +61,6 @@ background-color: var(--color-highlight-three) !important;
     margin: auto 0px !important;
 }
 
-.h2.flex-item {
-        flex: 2;
-    min-width: 200px;
-    color: var(--color-main);
-    border: .2em solid var(--color-highlight-three);
-    padding: 10px 0;
-    margin: 10px 0;
-}
-
-
-
 		h3 {
 			font-size:1.5em;
       color:var(--color-highlight-two);
@@ -214,10 +203,21 @@ background-color: transparent;
     max-width: 500px;
 }
 
+.flex-item.h2 {
+flex: 2;
+    min-width: 200px;
+    max-width: 500px;
+    color: var(--color-main);
+    border: 0.2em solid var(--color-highlight-three);
+    padding: 10px 0;
+    margin: 10px auto;
+}
+
+
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .flex-grid  {
+  .flex-grid:not(.h2)  {
     flex-direction: column;
   }
 	
