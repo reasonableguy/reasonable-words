@@ -204,7 +204,7 @@ a {
   background-color: teal;
   padding: 10px;
   margin:10px;
-  flex: 50%;
+  flex: 1 1 50%;
 }
 
 
