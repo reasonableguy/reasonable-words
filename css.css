@@ -58,11 +58,15 @@ h2 {
 }
 .bar-color {
     background-color: var(--color-highlight-three);
-    height: 0.6em;
+    height: 0.8em;
 	
 }
 .h2.flex-item {
-    flex: 6;
+        flex: 4;
+    color: var(--color-main);
+    border: 2px solid var(--color-main);
+    padding: 10px 0;
+    margin: 10px 0;
 }
 
 
