@@ -132,6 +132,9 @@ a {
   display: none;
 	var(--color-main)
 }
+ .topnav a:not(:first-child) {
+	 float:right;
+	 }
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
