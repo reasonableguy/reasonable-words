@@ -52,7 +52,7 @@ h2 {
 			text-transform: uppercase;
   		}
 .bar {
-background-color: var(--color-highlight-three);
+background-color: var(--color-highlight-three) !important;
     height: 0.8em;
     margin: auto 0px !important;
 }
