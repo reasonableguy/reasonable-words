@@ -101,7 +101,7 @@ a {
 }
 .topnav {
   overflow: hidden;
-  background-color: var(--color-neutral)
+  background-color: var(--color-neutral);
 	padding: 10px;
 }
 
