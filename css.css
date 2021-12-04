@@ -52,15 +52,11 @@ h2 {
 			text-transform: uppercase;
   		}
 .bar {
-	height: 1.8em;
-    margin: 20px 0 !important;
-    padding: 0.5em 0 !important;
-}
-.bar-color {
-    background-color: var(--color-highlight-three);
+background-color: var(--color-highlight-three);
     height: 0.8em;
-	
+    margin: auto 0px !important;
 }
+
 .h2.flex-item {
         flex: 4;
     color: var(--color-main);
