@@ -60,7 +60,7 @@ background-color: var(--color-highlight-three) !important;
 .h2.flex-item {
         flex: 4;
     color: var(--color-main);
-    border: 2px solid var(--color-main);
+    border: .2em solid var(--color-highlight-three);
     padding: 10px 0;
     margin: 10px 0;
 }
