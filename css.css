@@ -79,6 +79,7 @@ a {
 
 .desktop {
 	float:left;
+	max-height:50px;
 }
 
 .desktop > h2 {
@@ -101,7 +102,7 @@ a {
 .topnav {
   overflow: hidden;
   background-color: var(--color-neutral)
-	padding: 5px;
+	padding: 10px;
 }
 
 .topnav a {
