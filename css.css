@@ -59,6 +59,8 @@ h2 {
 .bar-color {
     background-color: var(--color-highlight-three);
     height: 0.6em;
+	margin:10px;
+	
 }
 .h2.flex-item {
     flex: 6;
