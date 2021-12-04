@@ -194,6 +194,10 @@ a {
 	flex-wrap: wrap;
 }
 
+.flex-grid.section {
+  max-width:1024px;
+}
+
 .flex-item {
   background-color: transparent;
   padding: 10px;
@@ -205,7 +209,8 @@ a {
 background-color: transparent;
     padding: 20px;
     flex: 1 0 50%;
-	margin:0;
+	    margin: 0 auto;
+    max-width: 500px;
 }
 
 
