@@ -175,7 +175,7 @@ a {
 /* --------------------------------LINKS--------------------*/
 	
 	.blue {
-	opacity: 0;
+	  display:none;
 	}
 	.grey { 
 	  vertical-align: top;
@@ -190,7 +190,7 @@ a {
   opacity: 1;
 	}
 	a:hover > .grey { 
-	  opacity: 0;
+	  display:none;
 	}
 
 
