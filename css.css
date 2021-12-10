@@ -175,20 +175,27 @@ a {
 /* --------------------------------LINKS--------------------*/
 	
 	.blue {
-	   visibility: hidden;
+	  position:absolute;
+		visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
 	
 	}
 	.grey { 
+			  position:absolute;
+
 	   visibility: visible;
   opacity: 1;
 }
 	a:hover > .blue {
+			  position:absolute;
+
   visibility: visible;
   opacity: 1;
 	}
 	a:hover > .grey { 
+			  position:absolute;
+
 	  visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
