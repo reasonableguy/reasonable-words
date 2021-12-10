@@ -173,7 +173,9 @@ a {
 
 }
 /* --------------------------------LINKS--------------------*/
-	
+	a.blue, a.grey {
+		display:inline-block;
+}
 	.blue {
 	  	visibility: hidden;
   opacity: 0;
