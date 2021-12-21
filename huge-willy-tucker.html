@@ -31,7 +31,7 @@ img {vertical-align: middle;}
 	animation-timing-function: ease-in;
 	animation-duration: 4s;
 }
-	  .fade-in.two {
+	  .fade-in-two {
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
@@ -42,6 +42,17 @@ img {vertical-align: middle;}
 
 @keyframes fadeInOpacity {
 	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+	@keyframes fadeInTwoOpacity {
+	0% {
+		opacity: 0;
+	}
+		80% {
 		opacity: 0;
 	}
 	100% {
@@ -202,7 +213,7 @@ img {vertical-align: middle;}
 	         <div style="    position: absolute;
     top: 0;
     background-color: white;
-    font-size: 2em;height:500px;color:red;" class="fade-in two text">Merry Christmas<br>Stay riDICKulous!
+    font-size: 2em;height:500px;color:red;" class="fade-in-two text">Merry Christmas<br>Stay riDICKulous!
 	      </div>
 </div>
 
