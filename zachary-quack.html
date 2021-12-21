@@ -16,7 +16,7 @@ img {vertical-align: middle;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2em;
-    padding:1em;
+    padding:.8em .4em;
     animation: rainbow 4s ease infinite;
 }
   
@@ -98,7 +98,6 @@ img {vertical-align: middle;}
 <body>
 
 <h2>ZACHARY STRUAN TUCKER</h2>
-<p>Change image every 3 seconds:</p>
 
 <div class="slideshow-container">
 
@@ -161,7 +160,7 @@ img {vertical-align: middle;}
     height: 0;
     padding-bottom: 84%;
     position: relative;
-    left: -50%;"><iframe src="https://giphy.com/embed/3ohjV8JRMcNVGYK10I" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/horror-japan-scary-3ohjV8JRMcNVGYK10I">via GIPHY</a></p>
+    left: -50%;"><iframe src="https://giphy.com/embed/3ohjV8JRMcNVGYK10I" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     <div class="text">Caption Two</div>
 </div>
 
@@ -198,7 +197,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 </script>
 
