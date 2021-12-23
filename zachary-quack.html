@@ -30,7 +30,7 @@ img {vertical-align: middle;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2em;
-    padding:.8em .4em;
+    padding:.4em .1em;
     animation: rainbow 4s ease infinite;
 }
 	
@@ -156,7 +156,7 @@ img {vertical-align: middle;}
 }
 	
 	.one {
-		position: absolute;bottom: 0;background-color: rgba(255,255,255,.7);font-size: 2em;height:150px;color:red;width: 500px;
+		position: absolute;bottom: 0;background-color: rgba(255,255,255,.7);font-size: 2em;height:150px;color:red;max-width: 500px;
 	}
 </style>
 </head>
@@ -253,7 +253,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 6000); // Change image every 4 seconds
+  setTimeout(showSlides, 60000); // Change image every 4 seconds
 }
 </script>
 </body>
