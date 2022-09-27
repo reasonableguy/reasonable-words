@@ -217,6 +217,7 @@ background-color: transparent;
 }
 .flex-item.services > div {
     max-width: 200px;
+	margin: 0 auto;
 }
 
 .flex-item.h2 {
