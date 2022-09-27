@@ -257,14 +257,13 @@ flex: 2;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 414px) {
-.flex-item.services > div {
+.flex-item.services {
+	    flex-direction: column;
+	}
+	.row {
     max-width: 300px;
-    margin: 0 auto;
-    flex: 1 0 100%;
-    padding: 20px;
 }
 }
-
 /* --------------------------------IMAGES--------------------*/
 .logo {
 	max-height:50px;
