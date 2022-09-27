@@ -214,7 +214,6 @@ background-color: transparent;
     padding: 20px;
     flex: 1 0 50%;
     margin: 0 auto 20px;
-    max-width: 200px;
 }
 .flex-item.services > div {
     max-width: 200px;
