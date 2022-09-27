@@ -232,9 +232,13 @@ flex: 2;
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
   .flex-grid:not(.h2)  {
-    flex-direction: column;
+     display: flex;
+        flex-wrap: wrap;
   }
-	
+	.flex-item.services {
+		  padding: 10px;
+        flex: 40%;
+	}
 	.nav-grid {
 		display:block;
 	}
