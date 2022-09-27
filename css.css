@@ -260,7 +260,7 @@ flex: 2;
 .flex-item.services {
 	    flex-direction: column;
 	}
-	.row {
+	.flex-item.services > div {
     max-width: 300px;
 }
 }
