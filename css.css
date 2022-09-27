@@ -212,12 +212,14 @@ a {
 .flex-item.services {
 background-color: transparent;
     padding: 20px;
-    flex: 1 0 25%;
+    flex: 1 0 50%;
     margin: 0 auto 20px;
+	display:flex;
 }
 .flex-item.services > div {
     max-width: 200px;
 	margin: 0 auto;
+	 flex: 1 0 50%;
 }
 
 .flex-item.h2 {
