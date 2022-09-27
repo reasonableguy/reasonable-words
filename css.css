@@ -243,6 +243,7 @@ flex: 2;
   }
 	.flex-item.services {
 		  padding: 10px;
+		flex: 1 0 100%;
     
 	}
 	.nav-grid {
