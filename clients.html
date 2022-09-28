@@ -2,35 +2,71 @@
 <html lang="en">
   <head>
     <style>
-      * {
-  box-sizing: border-box;
+      :root {
+  --shadow: rgba(0, 0, 0, 0.8)
 }
 
-html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html, body {
   height: 100%;
   width: 100%;
-overflow:hidden;
-  background-color:#333;
-    color:#fff;
-      line-height:1.7em;}
-
-.btn {
-  font-size: 2rem;
-  z-index: 10;
-  position: fixed;
-  top: 50%;
+  overflow: hidden;
 }
 
-.left {
-  left: 0.5rem;
+.slider-container {
+  height: 100vh;
+  display: inline-flex;
+  overflow: hidden;
+  scrollbar-width: none;
+  transform: translateX(0);
+  will-change: transform;
+  transition: transform 0.3s ease-out;
+  cursor: grab;
 }
 
-.right {
-  right: 0.5rem;
+.slide{
+  max-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
+
+@media(min-width: 1200px){
+  .slide {
+    padding: 3rem;
+  }
+}
+
+.slide img{
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 5px 5px 50px -1px var(--shadow);
+  border-radius: 4px;
+  user-select: none;
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+.grabbing .slide img{
+  transform: scale(0.9);
+  box-shadow: 5px 5px 40px -1px var(--shadow);
+}
+
+
+
+
+
+
       </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
