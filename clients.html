@@ -8,24 +8,41 @@
     <title> Slider</title>
   </head>
   <body>
-    <div class="slider-wrap">
-  <div class="slider" id="slider">
-    <div class="holder">
-      <div class="slide-wrapper">
-        <div class="slide"><img class="slide-image" src="//farm8.staticflickr.com/7347/8731666710_34d07e709e_z.jpg" /></div>
-        74
-      </div>
-      <div class="slide-wrapper">
-        <div class="slide"><img class="slide-image" src="//farm8.staticflickr.com/7384/8730654121_05bca33388_z.jpg" /></div>
-        64
-      </div>
-      <div class="slide-wrapper">
-        <div class="slide"><img class="slide-image" src="//farm8.staticflickr.com/7382/8732044638_9337082fc6_z.jpg" /></div>
-        82
-      </div>
-    </div>
-  </div>
+   <div class="container">
+    <section class="owl-carousel owl-theme d-md-none">
+        <div class="item">
+            <img src="https://picsum.photos/800/400?image=0" class="img-fluid" />
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/800/400?image=11" class="img-fluid" />
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/800/400?image=22" class="img-fluid" />
+        </div>
+    </section>
+    <section class="gallery d-none d-md-block">
+        <div class="row">
+            <div class="col">
+                <img src="https://picsum.photos/800/400?image=0" class="img-fluid" />
+            </div>
+            <div class="col">
+                <img src="https://picsum.photos/800/400?image=11" class="img-fluid" />
+            </div>
+            <div class="col">
+                <img src="https://picsum.photos/800/400?image=22" class="img-fluid" />
+            </div>
+        </div>
+    </section>
 </div>
 
+<script>
+  $(function(){
+    $('.owl-carousel').owlCarousel({
+        margin:10,
+        nav:true,
+        items: 1
+    });
+});
+    </script>
   </body>
 </html>
