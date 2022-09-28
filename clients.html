@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 <style>
   *{
   margin:0;
@@ -43,13 +46,37 @@
   </head>
   <body>
    <div class="main">
-     <div class="header">
-       <img src="https://vancouver.ca/images/cov/feature/2022-election-kids-vote-page-banner.jpg">
-       <p>number 1</p>
-              <img src="https://64.media.tumblr.com/5cb188c4a7f797180dacf9e92486e7c0/tumblr_inline_qnk99dA05p1qbxyt6_500.jpg">
+     
+       <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
 
-       
+      <div class="swiper-pagination"></div>
     </div>
-           
+     
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        
+      });
+    </script>
   </body>
 </html>
