@@ -1,93 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <style>
-  .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  *{
+  margin:0;
+  padding:0;
+  font-famil:sans-serif;
   }
-  .no-js .owl-carousel, .owl-carousel.owl-loaded {
-    display: block;
-}
-  .owl-carousel {
-    display: none;
-    width: 100%;
-    z-index: 1;
-}
-.owl-carousel, .owl-carousel .owl-item {
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
+  body {
+    background: linear-gradient(#fff,#000);
   }
-  .owl-carousel .owl-stage-outer {
+  .main {
+    width:350px;
+    height:100vh;
+    margin: 0 auto;
     position: relative;
-    overflow: hidden;
-    -webkit-transform: translate3d(0,0,0);
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-div {
-    display: block;
-}
-.owl-carousel, .owl-carousel .owl-item {
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
-}
-      transform: translate3d(-158px, 0px, 0px);
-    transition: all 0s ease 0s;
-    width: 474px;
-
-.owl-carousel .owl-stage {
-    position: relative;
-    -ms-touch-action: pan-Y;
-    touch-action: manipulation;
-    -moz-backface-visibility: hidden;
-   transform: translate3d(-158px, 0px, 0px);
-    transition: all 0s ease 0s;
-    width: 474px;
-}
-  .owl-carousel, .owl-carousel .owl-item {
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
-}
-   .owl-item {
-        width: 148px;
-    margin-right: 10px;
-
-  }
-.owl-carousel.owl-drag .owl-item {
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-.owl-carousel .owl-item {
-    min-height: 1px;
-    float: left;
-    -webkit-backface-visibility: hidden;
-    -webkit-touch-callout: none;
-}
-
-.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-}
-.owl-carousel, .owl-carousel .owl-item {
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
-}
+    overflow:hidden;
+    background:#047580;
+    
+    
     </style>
     
     <meta charset="UTF-8" />
@@ -96,41 +28,8 @@ div {
     <title> Slider</title>
   </head>
   <body>
-   <div class="container">
-    <section class="owl-carousel owl-theme d-md-none">
-        <div class="item">
-            <img src="https://picsum.photos/800/400?image=0" class="img-fluid" />
-        </div>
-        <div class="item">
-            <img src="https://picsum.photos/800/400?image=11" class="img-fluid" />
-        </div>
-        <div class="item">
-            <img src="https://picsum.photos/800/400?image=22" class="img-fluid" />
-        </div>
-    </section>
-    <section class="gallery d-none d-md-block">
-        <div class="row">
-            <div class="col">
-                <img src="https://picsum.photos/800/400?image=0" class="img-fluid" />
-            </div>
-            <div class="col">
-                <img src="https://picsum.photos/800/400?image=11" class="img-fluid" />
-            </div>
-            <div class="col">
-                <img src="https://picsum.photos/800/400?image=22" class="img-fluid" />
-            </div>
-        </div>
-    </section>
-</div>
-
-<script>
-$(function() {
-    $('.owl-carousel').owlCarousel({
-        margin:10,
-        nav:true,
-        items: 1
-    });
-});
-    </script>
+   <div class="main">
+    </div>
+           
   </body>
 </html>
