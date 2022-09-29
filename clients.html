@@ -64,8 +64,10 @@
   width: calc(250px * 10);
 }
 	.slider2 .slide-track {
-  -webkit-animation: scroll 35s linear reverse infinite alternate;
-          animation: scroll 35s linear reverse infinite alternate;
+  -webkit-animation: scroll 35s linear infinite;
+          animation: scroll 35s linear infinite;
+		-webkit-animation-direction:alternate-reverse;
+		animation-direction:alternate-reverse;
   display: flex;
   width: calc(250px * 10);
 }
