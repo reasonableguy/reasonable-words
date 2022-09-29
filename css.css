@@ -187,7 +187,7 @@ a {
 	
 	}
 a:hover > h3 {
-	filter: brightness(85%);
+	color:--color-main: #003366;
 }
 
 
