@@ -187,7 +187,7 @@ a {
 	
 	}
 a:hover > h3 {
-	color:--color-main: #003366;
+	color:var(--color-main);
 }
 
 
