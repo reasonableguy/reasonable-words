@@ -186,6 +186,9 @@ a {
 		display:none;
 	
 	}
+a:hover > h3 {
+	filter: brightness(85%);
+}
 
 
 /* --------------------------------FLEX GRID--------------------*/
