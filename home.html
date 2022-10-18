@@ -57,16 +57,19 @@
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
+  width: 90%;
+  height:90%;
   background-color: #555;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
-  position: absolute;
+  position: fixed;
+  top:5%;
+ 
+  right:5%;
   z-index: 1;
-  bottom: 125%;
-  left: 50%;
+
   margin-left: -80px;
 }
 
@@ -100,11 +103,9 @@
   to {opacity:1 ;}
 }
 </style>
-
-
-<h2>Popup</h2>
-
-<div class="popup" onclick="pop()">Click me to toggle the popup!
+<div style="width:200px;height:200px;" class="popup" onclick="pop()">
+<h2>Web Design</h2>
+<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
   <span class="popuptext" id="myPopup">A Simple Popup!</span>
 </div>
 
@@ -115,6 +116,7 @@ function pop() {
   popup.classList.toggle("show");
 }
 </script>
+
 	/* end pop up */
 	<h3>I'm H3</h3>
 	<p>I'm p</p>
