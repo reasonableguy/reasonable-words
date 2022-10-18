@@ -53,13 +53,18 @@
   -ms-user-select: none;
   user-select: none;
 }
+.close{
+position:absolute;
+top:10px;
+right:10px;
+}
 
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
   width: 90%;
   height:90%;
-  background-color: #555;
+  background-color: rgba(100, 100, 100, .9);
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -106,9 +111,10 @@
 <div style="width:200px;height:200px;" class="popup" onclick="pop()">
 <h2>Web Design</h2>
 <img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup" style="padding:10px;" ><h2>Web Design</h2>
-<img style="width:75%;" src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p style="max-width:80%;margin:10px auto;"> here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</span>
+  <span class="popuptext" id="myPopup" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
+<img style="max-height:50vh;" src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p style="max-width:80%;margin:10px auto;"> here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</span>
 </div>
+
 <script>
 // When the user clicks on div, open the popup
 function pop() {
