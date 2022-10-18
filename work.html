@@ -1,139 +1,140 @@
+<!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
-	
-<head><style>
-/* Popup container - can be anything you want */
-.popup1, .popup2, .popup3{
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.close{
-position:absolute;
-top:10px;
-right:10px;
-}
-
-/* The actual popup */
-.popup1 .popuptext,.popup2 .popuptext, .popup3 .popuptext {
-  visibility: hidden;
-  width: 90%;
-  height:90%;
-  background-color: rgba(100, 100, 100, .9);
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: fixed;
-  top:5%;
- 
-  right:5%;
-  z-index: 1;
-
-  margin-left: -80px;
-}
-
-.popuptext > h2 {
-color:#ffffff;
-}
-.popuptext > img {
+.content > img {
 max-height:50vh;
 }
-.popuptext > p {
-max-width:80%;
-margin:10px auto;
-color:#ffffff;
+
+
+.button {
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
 }
 
-/* Popup arrow */
-.popup1 .popuptext::after, .popup2 .popuptext::after , .popup3 .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+.overlay1,.overlay2,.overlay3 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
 }
-
-/* Toggle this class - hide and show the popup */
-.popup1 .show ,.popup2 .show ,.popup3 .show {
+.overlay1:target,.overlay2:target,.overlay3:target {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  opacity: 1;
 }
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 90%;
+  position: relative;
+  transition: all 5s ease-in-out;
 }
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
 }
 </style>
-  </head>
-    <body>
+</head>
+<body style="text-align:center">
 <div class="flex-grid section">
 	<div class="flex-item services">
     <div class="row">
     <div class="service">
-<div style="width:200px;height:200px;" class="popup1" onclick="pop1()">
-<h2>Web Design</h2>
-<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup1" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
-<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p > here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p></span>
+ 
+	<a class="button" href="#popup1"><h2>Web Design</h2>
+<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"></a>
+
+
+<div id="popup1" class="overlay1">
+	<div class="popup">
+		<h2>Web Design</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+
+<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>		</div>
+	</div>
 </div>
-</div>
-</div>
-<div class="row">
-      <div class="service">
-<div style="width:200px;height:200px;" class="popup2" onclick="pop2()">
-<h2>Web </h2>
-<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup2" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
-<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >222222 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p></span>
-</div>
-      	</div>
-</div>
-<div class="row">
+		</div>
+	</div>
+    <div class="row">
     <div class="service">
-<div style="width:200px;height:200px;" class="popup3" onclick="pop3()">
-<h2> Design</h2>
-<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup3" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
-<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >33333 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p></span>
+
+	<a class="button" href="#popup2"><h2>2222</h2>
+<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"></a>
+
+<div id="popup2" class="overlay2">
+	<div class="popup">
+		<h2>22222</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >2222 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>				</div>
+	</div>
 </div>
-      	</div>
-</div>
-</div>
-</div>
+		</div>
+	</div>
+    <div class="row">
+    <div class="service">
+   
+	<a class="button" href="#popup3"><h2>3333</h2>
+<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"></a>
 
 
-<script>
-// When the user clicks on div, open the popup
-function pop1() {
-  var popup1 = document.getElementById("myPopup1");
-  popup1.classList.toggle("show");
-}
-
-function pop2() {
-  var popup2 = document.getElementById("myPopup2");
-  popup2.classList.toggle("show");
-}
-function pop3() {
-  var popup3 = document.getElementById("myPopup3");
-  popup3.classList.toggle("show");
-}
-</script>
-
+<div id="popup3" class="overlay3">
+	<div class="popup">
+		<h2>3333</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >3333 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>				</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+</div>
 
 
 </body>
