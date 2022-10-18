@@ -3,7 +3,7 @@
 	
 <head><style>
 /* Popup container - can be anything you want */
-.popup{
+.popup {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -12,39 +12,21 @@
   -ms-user-select: none;
   user-select: none;
 }
-.close{
-position:absolute;
-top:10px;
-right:10px;
-}
 
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 90%;
-  height:90%;
-  background-color: rgba(100, 100, 100, .9);
+  width: 160px;
+  background-color: #555;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
-  position: fixed;
-  top:5%;
-   right:5%;
-  z-index: 10;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
   margin-left: -80px;
-}
-
-.popuptext > h2 {
-color:#ffffff;
-}
-.popuptext > img {
-max-height:50vh;
-}
-.popuptext > p {
-max-width:80%;
-margin:10px auto;
-color:#ffffff;
 }
 
 /* Popup arrow */
@@ -60,7 +42,7 @@ color:#ffffff;
 }
 
 /* Toggle this class - hide and show the popup */
-.popup .show  {
+.popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
@@ -77,32 +59,21 @@ color:#ffffff;
   to {opacity:1 ;}
 }
 </style>
-  </head>
-    <body>
-<div class="flex-grid section">
-	<div class="flex-item services">
-    <div class="row">
-    <div class="service">
-<div style="width:200px;height:200px;" class="popup" onclick="pop1()">
-<h2>Web sDen</h2>
-<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
-<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p > here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</span>
-</div>
-</div>
-</div>
+</head>
+<body style="text-align:center">
 
-</div>
-</div>
+<h2>Popup</h2>
 
+<div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  <span class="popuptext" id="myPopup">A Simple Popup!</span>
+</div>
 
 <script>
 // When the user clicks on div, open the popup
-function pop1() {
+function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
-
 </script>
 
 
