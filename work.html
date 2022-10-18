@@ -3,7 +3,7 @@
 	
 <head><style>
 /* Popup container - can be anything you want */
-.popup1, .popup2, .popup3{
+.popup{
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -19,7 +19,7 @@ right:10px;
 }
 
 /* The actual popup */
-.popup1 .popuptext,.popup2 .popuptext, .popup3 .popuptext {
+.popup .popuptext {
   visibility: hidden;
   width: 90%;
   height:90%;
@@ -48,7 +48,7 @@ color:#ffffff;
 }
 
 /* Popup arrow */
-.popup1 .popuptext::after, .popup2 .popuptext::after , .popup3 .popuptext::after {
+.popup .popuptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -60,7 +60,7 @@ color:#ffffff;
 }
 
 /* Toggle this class - hide and show the popup */
-.popup1 .show  {
+.popup .show  {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
@@ -83,7 +83,7 @@ color:#ffffff;
 	<div class="flex-item services">
     <div class="row">
     <div class="service">
-<div style="width:200px;height:200px;" class="popup1" onclick="pop1()">
+<div style="width:200px;height:200px;" class="popup" onclick="pop1()">
 <h2>Web Den</h2>
 <img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
   <span class="popuptext" id="myPopup1" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
@@ -91,26 +91,7 @@ color:#ffffff;
 </div>
 </div>
 </div>
-<div class="row">
-      <div class="service">
-<div style="width:200px;height:200px;" class="popup2" onclick="pop2()">
-<h2>Web </h2>
-<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup2" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
-<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >222222 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</span>
-</div>
-      	</div>
-</div>
-<div class="row">
-    <div class="service">
-<div style="width:200px;height:200px;" class="popup3" onclick="pop3()">
-<h2> Design</h2>
-<img src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-  <span class="popuptext" id="myPopup3" style="padding:10px;" ><span class="close">X</span><h2>Web Design</h2>
-<img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg"><p >33333 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</span>
-</div>
-      	</div>
-</div>
+
 </div>
 </div>
 
@@ -118,18 +99,10 @@ color:#ffffff;
 <script>
 // When the user clicks on div, open the popup
 function pop1() {
-  var popup1 = document.getElementById("myPopup1");
-  popup1.classList.toggle("show");
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }
 
-function pop2() {
-  var popup2 = document.getElementById("myPopup2");
-  popup2.classList.toggle("show");
-}
-function pop3() {
-  var popup3 = document.getElementById("myPopup3");
-  popup3.classList.toggle("show");
-}
 </script>
 
 
