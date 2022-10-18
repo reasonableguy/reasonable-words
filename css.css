@@ -261,7 +261,7 @@ flex: 2;
 @media (max-width: 414px) {
 .flex-item.services {
 	    flex-direction: row;
-	    margin: 0 auto;
+	    margin: 0 auto 20px;
 	    padding: 0;
 	}
 	.flex-item.services > div {
