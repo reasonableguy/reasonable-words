@@ -192,7 +192,8 @@ a:hover > h3 {
 
 
 /* --------------------------------FLEX GRID--------------------*/
-
+.flex-box {
+	margin: 20px auto;}
 .flex-grid {
   display: flex;
   flex-direction: row;
@@ -213,10 +214,16 @@ a:hover > h3 {
 }
 
 .flex-item.services {
-background-color: transparent;
-    flex: 1 0 50%;
-    margin: 0 auto 20px;
-	display:flex;
+    background-color: transparent;
+    flex: 1 0 100%;
+    /* margin: 0 auto 20px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-height: 20vh;
 }
 .flex-item.services > div {
     max-width: 200px;
