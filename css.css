@@ -195,7 +195,7 @@ a:hover > h3 {
 
 .flex-grid {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
 	flex-wrap: wrap;
 }
