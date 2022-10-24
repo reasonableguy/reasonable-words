@@ -192,8 +192,7 @@ a:hover > h3 {
 
 
 /* --------------------------------FLEX GRID--------------------*/
-.flex-box {
-	margin: 20px auto;}
+
 .flex-grid {
   display: flex;
   flex-direction: row;
