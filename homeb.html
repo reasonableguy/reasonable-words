@@ -13,7 +13,13 @@
 	<title>Reasonable Words</title>
 	
 	<style>
-		.footer{
+		.navheader {
+			position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;z-index:6
+		}
+		    .footer{
 		    background-color: var(--color-main);
     color: #ffffff;
 
@@ -45,6 +51,8 @@ min-height: calc(0.8em + 20px);
 min-height: 50px);
  
 		}
+			.nav-header{
+				z-index:1}
 			.bar
 			{
   position: -webkit-sticky;
@@ -77,10 +85,7 @@ min-height: 50px);
 
   <body>
 	  
-	    <div style="position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;z-index:6;" w3-include-html="/nav.html"></div>
+	    <div class="navheader" w3-include-html="/nav.html"></div>
 <div class="page">
 	<h1 style="position:absolute;top:80px;left:0;right:0;">I'm H one</h1>
 	<div class="parallax"></div>
