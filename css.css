@@ -272,7 +272,7 @@ flex: 2;
 	.flex-item.services > div {
 			    padding: 0 20px;
 
-    max-width: 300px;
+    max-width: unset;
 }
 }
 /* --------------------------------IMAGES--------------------*/
