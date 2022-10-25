@@ -66,8 +66,8 @@ background-color: var(--color-highlight-three) !important;
 			font-size:1.5em;
       color:var(--color-highlight-two);
 			letter-spacing:2px;
-			
 			text-transform: uppercase;
+			    white-space: nowrap;
 		}
 		p {
 			font-size:1em;
