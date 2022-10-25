@@ -155,7 +155,7 @@ a {
 	   width: auto;
   }
 	.desktop > h2{display:none;}
-	.logo {float:left;max-width:40px;background:pink;border:1px solid blue;}
+	.logo {float:left;max-width:40px;}
 }
 
 @media screen and (max-width: 600px) {
