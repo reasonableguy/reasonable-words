@@ -41,9 +41,7 @@
 min-height: calc(0.8em + 20px);
     /*border: 2px solid #4CAF50;*/
 		}
-		.mobile-title{
-				display:none;
-			}
+		
 		@media only screen and (max-width: 600px) {
 			.desktop-title{
 				display:none;
@@ -51,22 +49,19 @@ min-height: calc(0.8em + 20px);
   .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 00px;
+  top: -15px;
   padding: 5px;
 min-height: 50px);
  
 		}
 			.navheader{
 				z-index:1}
-			.bar
-			{
-  position: -webkit-sticky;
-  position: sticky;
-  top: -50px;
-  padding: 5px;
-min-height: 50px);
- 
+			
 		}
+		
+		@media only screen and (min-width: 601px) {.mobile-title{
+				display:none;
+			}
 		}
 	
 		.parallax {
