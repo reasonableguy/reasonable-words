@@ -154,7 +154,7 @@ a {
     display: block;
 	   width: auto;
   }
-	.desktop:display:none;
+	.desktop > h2{display:none;
 }
 
 @media screen and (max-width: 600px) {
