@@ -30,6 +30,23 @@ body {
 .section {
 
 }
+.sectionpage:first-child:before {
+    content: "";
+    width: 100%;
+    height: 130px;
+    background-color: lime;
+    position: absolute;
+    left: 0;
+}
+.sectionpage::after {
+    content: "";
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+}
+
 
 h1, h2, h3, p, a, li, button, input, option, select {
 			font-family: 'Raleway', sans-serif;
