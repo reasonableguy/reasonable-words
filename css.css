@@ -266,7 +266,7 @@ flex: 2;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 600px) {
-	.bar{background-color:transparent;
+	.bar{background-color:transparent !important;
 	}
 	.flex-grid{
 	background-color:transparent;
@@ -276,10 +276,13 @@ flex: 2;
 	}
 	.flex-item.services > div {
 			    padding: 0 20px;
-margin: 2.5%;
-	 flex: 1 0 45%;
-    max-width: unset;
+			margin: 2.5%;
+		 flex: 1 0 45%;
+   	 max-width: unset;
 }
+	.flex-item.h2{
+		background-color:#ffffff;
+	}
 }
 	@media (max-width: 414px) {
 .flex-item.services {
