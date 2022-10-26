@@ -30,7 +30,7 @@ body {
 .section {
 
 }
-.sectionpage:first-child:before {
+.sectionpage:first-child::before {
     content: "";
     width: 100%;
     height: 130px;
