@@ -195,7 +195,13 @@ a:hover > h3 {
 
 
 /* --------------------------------FLEX GRID--------------------*/
-
+.service {
+    min-width: 180px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
 .flex-grid {
   display: flex;
   flex-direction: row;
