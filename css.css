@@ -278,7 +278,7 @@ flex: 2;
     min-width: 200px;
     max-width: 500px;
     color: var(--color-main);
-    border: 0.2em solid var(--color-highlight-three);
+    /*border: 0.2em solid var(--color-highlight-three);*/
     padding: 10px 0;
     margin: 10px auto;
 	background-color: #ffffff;
@@ -327,8 +327,7 @@ flex: 2;
 	
 	.flex-item.h2{
 		background-color:#ffffff;
-		background-color: #ffffff;
-    -webkit-box-shadow: 0 0 4px rgb(0 0 0 / 20%), inset 0 0 50px rgb(0 0 0 / 10%);
+		    -webkit-box-shadow: 0 0 4px rgb(0 0 0 / 20%), inset 0 0 50px rgb(0 0 0 / 10%);
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 5px rgb(0 0 0 / 20%), inset 0 0 50px rgb(0 0 0 / 10%);
 	}
