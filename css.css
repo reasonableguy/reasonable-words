@@ -247,7 +247,13 @@ flex: 2;
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .flex-grid:not(.h2)  {
+  .flex-item.services > div {
+			    padding: 0 20px;
+			margin: 2.5%;
+		 flex: 1 0 45%;
+   	 max-width: unset;
+}
+	.flex-grid:not(.h2)  {
      display: flex;
         flex-wrap: wrap;
   }
@@ -274,12 +280,7 @@ flex: 2;
 	.sticky {
 	background-color:transparent;
 	}
-	.flex-item.services > div {
-			    padding: 0 20px;
-			margin: 2.5%;
-		 flex: 1 0 45%;
-   	 max-width: unset;
-}
+	
 	.flex-item.h2{
 		background-color:#ffffff;
 	}
