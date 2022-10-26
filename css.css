@@ -60,6 +60,7 @@ h2 {
 background-color: var(--color-highlight-three) !important;
     height: 0.8em;
     margin: auto 0px !important;
+	padding: 0 !important;
 }
 
 		h3 {
@@ -265,6 +266,14 @@ flex: 2;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 600px) {
+	.bar{background-color:transparent;
+	}
+	.flex-grid{
+	background-color:transparent;
+	}
+	.sticky {
+	background-color:transparent;
+	}
 	.flex-item.services > div {
 			    padding: 0 20px;
 margin: 2.5%;
