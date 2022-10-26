@@ -33,7 +33,7 @@ body {
 .servicepage::before {
     content: "";
     width: 100%;
-    height: 130px;
+    height: 100px;
     background-color: #ffffff;
     position: absolute;
     left: 0;
