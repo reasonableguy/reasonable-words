@@ -82,7 +82,9 @@ h2 {
 
 .intro>p{
 	color:#ffffff;
-	font-size:
+	font-size:1.2em;
+}
+
 .bar {
 background-color: var(--color-highlight-three) !important;
     height: 0.8em;
