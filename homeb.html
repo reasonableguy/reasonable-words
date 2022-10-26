@@ -101,14 +101,16 @@ min-height: 50px);
   background-size: cover;
 		}
 	.animate {
-       display: inline;
-       margin: 0;
-       padding: 0;
-       border: 0;
+     display: block;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 50vw;
+}
    }
    
    .animate:after {
-       content: 'reasonable words';
+       content: 'words';
        -webkit-animation-name: animate;
        -webkit-animation-duration: 2s;
        animation-name: animate;
@@ -117,7 +119,7 @@ min-height: 50px);
        animation-iteration-count: infinite;
    }
 		  .animate:before {
-       content: ' ';
+       content: 'reasonable ';
        width:10px;
 			  height:10px;
    }
