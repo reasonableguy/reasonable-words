@@ -44,10 +44,7 @@ min-height: calc(0.8em + 20px);
 		
 		@media only screen and (max-width: 600px) {
 			
-  .intro {
-    top: 120px;
-  
-}	
+
 			.sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -65,11 +62,31 @@ min-height: 50px);
 			 .contactpage {
 				 min-height: calc(100vh - 70px - 50px);
 		}
+		.intro {
+  position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,51,102,.5);
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 15px;
+}	
 		}
 		@media only screen and (min-width: 601px) {
 			 .contactpage {
 				 min-height: calc(100vh - 70px - 99.5px - 50px);
 		}
+			.intro {
+  position: absolute;
+    top: 180px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,51,102,.5);
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 15px;
+}	
 		}
 		.parallax {
   /* The image used */
@@ -84,16 +101,7 @@ min-height: 50px);
   background-repeat: no-repeat;
   background-size: cover;
 		}
-	.intro {
-  position: absolute;
-    top: 180px;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,51,102,.5);
-    margin: 0 auto;
-    max-width: 80%;
-    padding: 15px;
-}	
+	
 	</style>
 </head>
 
