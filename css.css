@@ -37,9 +37,13 @@ body {
     background-color: lime;
     position: absolute;
     left: 0;
+	right:0;
+	top:-130;
+	
 }
 	.sectionpage {   background-color:#ffffff;
-		margin-bottom: 30px;}
+		margin-bottom: 30px;
+position:relative;}
 
 .sectionpage::after {
     content: "";
