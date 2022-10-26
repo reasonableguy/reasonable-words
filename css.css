@@ -38,6 +38,9 @@ body {
     position: absolute;
     left: 0;
 }
+	.sectionpage {   background-color:#ffffff;
+		margin-bottom: 30px;}
+
 .sectionpage::after {
     content: "";
     width: 100%;
