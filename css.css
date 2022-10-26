@@ -89,7 +89,7 @@ h2 {
 .bar {
 /*background-color: var(--color-highlight-three) !important;*/
     height: 0.8em;
-    margin: auto 0px !important;
+    margin:  0px !important;
 	padding: 0 !important;
 }
 
