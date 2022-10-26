@@ -43,9 +43,7 @@ min-height: calc(0.8em + 20px);
 		}
 		
 		@media only screen and (max-width: 600px) {
-			  .desktop-title{
-				display:none;
-			}
+			
   .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -59,10 +57,7 @@ min-height: 50px);
 			
 		}
 		
-		@media only screen and (min-width: 601px) {
-			.mobile-title{
-				display:none;
-			}}
+	
 			 .sectionpage {min-height: calc(100vh - 70px - 99.5px - 50px);
 
 		}
@@ -89,31 +84,48 @@ min-height: 50px);
 <div class="page">
 	<h1 style="position:absolute;top:80px;left:0;right:0;">I'm H oo o</h1>
 	<div class="parallax"></div>
-	<div style="z-index: 2;background-color: transparent;left: 0;right: 0;" class="sticky section">
-	<div class="flex-grid h2">
-		<div class="bar flex-item" style="background-color: transparent !important;"></div>
-		<h2 class="h2 flex-item" style="background-color: white;border: .2em solid var(--color-highlight-three);">services</h2>
-		<div class="bar flex-item" style="background-color: transparent !important;"></div>
-	</div></div>
- <div style="z-index:1;position: absolute !important;top: 500px;left: 0;right: 0;" class="mobile-title sticky section">
-	<div class="flex-grid h2" style="
-    width: 100;
-">
-		<div class="bar flex-item"></div>
-		<h2 style="color:transparent;background-color: white;" class="h2 flex-item">services</h2>
-		<div class="bar flex-item"></div>
-	</div></div>
 	
+<div style="z-index: 2;background-color: transparent;left: 0;right: 0;" class="sticky section">
+	<div class="flex-grid h2">
+		<div class="bar flex-item">
+		</div>
+		<h2 class="h2 flex-item" style="background-color: white;border: .2em solid var(--color-highlight-three);">
+			services
+		</h2>
+		<div class="bar flex-item">
+		</div>
+	</div>
+</div>
+	
+
+	
+<div style="z-index:2;" class="sticky  section">
+	<div class="flex-grid h2">
+		<div class="bar flex-item">
+		</div>
+		<h2 class="h2 flex-item">
+			services
+		</h2>
+		<div class="bar flex-item">
+		</div>
+	</div>
+</div>
+
+<div class="sectionpage"  style="z-index:1;" w3-include-html="/services.html"></div>
 	
 <div style="z-index:2;" class="sticky desktop-title section">
 	<div class="flex-grid h2">
-		<div class="bar flex-item"></div>
-		<h2 class="h2 flex-item">services</h2>
-		<div class="bar flex-item"></div>
-	</div></div>
-	<div class="sectionpage"  style="z-index:1;" w3-include-html="/services.html"></div>
-
-
+		<div class="bar flex-item">
+		</div>
+		<h2 class="h2 flex-item">
+			clients
+			</h2>
+		<div class="bar flex-item">
+		</div>
+	</div>
+</div>
+	
+<div class="sectionpage"  style="z-index:1;" w3-include-html="/clients.html"></div>
 	
 <div style="z-index:2;" class="sticky desktop-title section">
 	<div class="flex-grid h2">
@@ -132,6 +144,7 @@ min-height: 50px);
 		<h2 class="h2 flex-item">SAY HI</h2>
 		<div class="bar flex-item"></div>
 	</div></div>
+	
 	<div class="sectionpage" style="z-index:4;" w3-include-html="/contact.html"></div>
 
 	
