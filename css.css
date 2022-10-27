@@ -11,8 +11,16 @@
 }
 
 html {
-  max-width:1440px;
+
 	height:100%;
+scroll-padding-top: 70px;
+	scroll-behavior: smooth;
+	max-width:100%
+}
+@media (max-width: 768px) {
+html{
+	scroll-padding-top: 0px;	
+	}
 }
 
 body {
