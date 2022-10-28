@@ -1,0 +1,78 @@
+<!-- Navbar Section -->
+    <nav class="navheader navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">TEST</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#practices" class="navbar__links" id="practices-page"
+              >Practice</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact" class="button" id="contact-page">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<style>
+.navbar__menu {
+display: none;
+}
+.navbar__menu.active {
+display: flex;
+}
+.navbar__toggle {
+  height: 1rem;
+}
+.navbar__toggle .bar {
+  background: green;
+  height: 5px;
+  width: 5px;
+  padding: 3px;
+  display: block;
+  border: 1px solid black;
+  content: 'x';
+}
+#mobile-menu {
+display: flex;
+}
+#mobile-menu.is-active {
+  background: green;
+}
+</style>
+<script>
+  const menu = document.querySelector("#mobile-menu");
+const menuLinks = document.querySelector(".navbar__menu");
+const navLogo = document.querySelector("#navbar__logo");
+
+// Display Mobile Menu
+const mobileMenu = () => {
+  menu.classList.toggle("is-active");
+  menuLinks.classList.toggle("active");
+};
+
+menu.addEventListener("click", mobileMenu);
+
+//  Close mobile Menu when clicking on a menu item
+const hideMobileMenu = () => {
+  const menuBars = document.querySelector(".is-active");
+  if (window.innerWidth <= 768 && menuBars) {
+    menu.classList.toggle("is-active");
+    menuLinks.classList.remove("active");
+  }
+};
+
+menuLinks.addEventListener("click", hideMobileMenu);
+navLogo.addEventListener("click", hideMobileMenu);
+</script>
