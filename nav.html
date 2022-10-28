@@ -4,7 +4,7 @@
 
 <!-- Mobile Navigation Menu -->
  
-<div id="main-menu" class="topnav" id="myTopnav">
+<div class="topnav" id="myTopnav">
   <a href="/home" class="active"><img class="logo" src="https://d33wubrfki0l68.cloudfront.net/d6a460e9-1e40-4710-99ea-063814098013/Untitled-1.svg">
 	  <div class="desktop"><h2>Reason<br>Able</h2></div></a>
   <a href="#work">Work</a>
@@ -16,7 +16,7 @@
 </div>
 
 <script>
-	jQuery('#main-menu').on('click', '.menu-item a', function(event){
+	jQuery('#myTopnav').on('click', '.menu-item a', function(event){
  var href_link = jQuery(this).attr('href');
  if (href_link.includes('#')){
   event.preventDefault();
@@ -27,7 +27,7 @@
  }
 });
  
-jQuery('#main-menu').on('click', 'li', function(){
+jQuery('#myTopnav').on('click', 'li', function(){
  var href_link = jQuery(this).find('a').attr('href');
  window.location.href = href_link;
 });
