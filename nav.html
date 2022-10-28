@@ -1,75 +1,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css.css"> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
-<style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-.main-menu{
-float:right;
-}
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
-
-
-<nav id="myTopnav" class="topnav navbar navbar-expand-lg navbar-light bg-light">
-	<a href="/home" class="navbar-brand active"><img class="logo" src="https://d33wubrfki0l68.cloudfront.net/d6a460e9-1e40-4710-99ea-063814098013/Untitled-1.svg">
+<!-- Mobile Navigation Menu -->
+ 
+<div class="topnav" id="myTopnav">
+  <a href="/home" class="active"><img class="logo" src="https://d33wubrfki0l68.cloudfront.net/d6a460e9-1e40-4710-99ea-063814098013/Untitled-1.svg">
 	  <div class="desktop"><h2>Reason<br>Able</h2></div></a>
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a onclick="closeNav()" href="#">About</a>
-  <a onclick="closeNav()" href="#services">Services</a>
-  <a onclick="closeNav()" href="#">Clients</a>
-  <a onclick="closeNav()" href="#">Contact</a>
+  <a href="#work">Work3</a>
+  <a href="/contact">Contact</a>
+  <a href="/about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
-
-<span class="main-menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-</nav>
