@@ -187,7 +187,19 @@ a {
   display: none;
 	var(--color-main)
 }
+.menu {
+	  display: flex;   
+  justify-content: flex-end; 
+}
 
+.menu > a {
+		display: block;
+  color: var(--color-main);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
