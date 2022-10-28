@@ -198,12 +198,17 @@ a {
   font-size: 17px;
 }
 
-@media screen and (max-width: 600px) {
   .menu {
 	  display: flex;   
   justify-content: flex-end; 
 }
-	.topnav a:not(:first-child) {display: none;}
+
+@media screen and (max-width: 600px) {
+  .menu {
+	  display: block;   
+  justify-content: unset; 
+}
+	.menu a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
