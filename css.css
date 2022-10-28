@@ -158,7 +158,7 @@ a {
 	padding: 10px;
 }
 
-.topnav a {
+.topnav >a {
    float:left;
 	display: block;
   color: var(--color-main);
@@ -168,13 +168,11 @@ a {
   font-size: 17px;
 }
 
-.topnav a:first-child {
+.topnav >a:first-child {
 	padding:0;
 	min-width:175px;
 }
-.topnav a:not(:first-child) {
-    float: right;
-}
+
 	  
 	  
 .topnav a:hover {
