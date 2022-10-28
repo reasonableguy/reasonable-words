@@ -189,7 +189,7 @@ a {
 }
 
 
-.menu > a {
+.topmenu > a {
 		display: block;
   color: var(--color-main);
   text-align: center;
@@ -198,17 +198,17 @@ a {
   font-size: 17px;
 }
 
-  .menu {
+  .topmenu {
 	  display: flex;   
   justify-content: flex-end; 
 }
 
 @media screen and (max-width: 600px) {
-  .menu {
+  .topmenu {
 	  display: block;   
   justify-content: unset; 
 }
-	.menu a {display: none;}
+	.topmenu a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
