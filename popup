@@ -11,7 +11,7 @@
             
             <div id="popup2" class="overlay2">
               <div class="popup">
-                <h3>PACKAGING 2</h3>
+                <h3>PACKAGING</h3>
                 <a class="close" href="#">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
@@ -22,7 +22,7 @@
             
             <div id="popup3" class="overlay3">
               <div class="popup">
-                <h3>ADS 3</h3>
+                <h3>ADVERTISING</h3>
                 <a class="close" href="#">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
@@ -33,7 +33,7 @@
             
             <div id="popup4" class="overlay4">
               <div class="popup">
-                <h3>BRANDING 4</h3>
+                <h3>BRANDING</h3>
                 <a class="close" href="#">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
