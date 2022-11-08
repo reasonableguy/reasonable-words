@@ -1,7 +1,7 @@
 <div id="popup1" class="overlay1">
               <div class="popup">
                 <h3>ECOMMERCE</h3>
-                <a class="close" href="#">&times;</a>
+                <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
                   <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
@@ -12,7 +12,7 @@
             <div id="popup2" class="overlay2">
               <div class="popup">
                 <h3>PACKAGING</h3>
-                <a class="close" href="#">&times;</a>
+                <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
                   <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
@@ -23,7 +23,7 @@
             <div id="popup3" class="overlay3">
               <div class="popup">
                 <h3>ADVERTISING</h3>
-                <a class="close" href="#">&times;</a>
+                <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
                   <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
@@ -34,7 +34,7 @@
             <div id="popup4" class="overlay4">
               <div class="popup">
                 <h3>BRANDING</h3>
-                <a class="close" href="#">&times;</a>
+                <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
                   <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
