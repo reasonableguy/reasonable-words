@@ -203,7 +203,7 @@ a {
   justify-content: flex-end; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .topmenu {
 	  display: block;   
   justify-content: unset; 
@@ -218,7 +218,7 @@ a {
 	.logo {float:left;max-width:40px;}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
