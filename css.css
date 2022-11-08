@@ -293,7 +293,10 @@ textarea{
 }
 
 @media screen and (max-width: 600px){
-form > p {
+form {
+	max-width:100vw;
+	}
+	form > p {
 	    flex-direction: column;
 	}
 	label {
