@@ -34,10 +34,12 @@ max-height:50vh;
   right: 0;
   background: rgba(0, 0, 0, 0.9);
   transition: opacity 500ms;
-  opacity: 0;
+  visibility:hidden;
+	opacity: 0;
 }
 .overlay1:target,.overlay2:target,.overlay3:target,.overlay4:target {
-  opacity: 1;
+    visibility:visible;
+opacity: 1;
 }
 
 .popup {
