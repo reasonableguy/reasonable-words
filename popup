@@ -1,4 +1,4 @@
-<div id="popup1" class="overlay5">
+<div id="popup1" class="overlay1">
               <div class="popup">
                 <h3>ECOMMERCE</h3>
                 <a class="close" href="#WORK">&times;</a>
@@ -9,7 +9,7 @@
               </div>
             </div>
             
-            <div id="popup2" class="overlay6">
+            <div id="popup2" class="overlay2">
               <div class="popup">
                 <h3>PACKAGING</h3>
                 <a class="close" href="#WORK">&times;</a>
@@ -20,7 +20,7 @@
               </div>
             </div>
             
-            <div id="popup3" class="overlay7">
+            <div id="popup3" class="overlay3">
               <div class="popup">
                 <h3>ADVERTISING</h3>
                 <a class="close" href="#WORK">&times;</a>
@@ -31,7 +31,7 @@
               </div>
             </div>
             
-            <div id="popup4" class="overlay8">
+            <div id="popup4" class="overlay4">
               <div class="popup">
                 <h3>BRANDING</h3>
                 <a class="close" href="#WORK">&times;</a>
