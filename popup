@@ -8,3 +8,36 @@
                 </div>
               </div>
             </div>
+            
+            <div id="popup2" class="overlay1">
+              <div class="popup">
+                <h3>PACKAGING 2</h3>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
+                  <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
+                </div>
+              </div>
+            </div>
+            
+            <div id="popup3" class="overlay1">
+              <div class="popup">
+                <h3>ADS 3</h3>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
+                  <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
+                </div>
+              </div>
+            </div>
+            
+            <div id="popup4" class="overlay1">
+              <div class="popup">
+                <h3>BRANDING 4</h3>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
+                  <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
+                </div>
+              </div>
+            </div>
