@@ -1,6 +1,6 @@
 <style>
 .caption {
-min-height:unset;
+min-height:unset !important;
 }
 </style>
 <div id="strategypop" class="overlay5">
