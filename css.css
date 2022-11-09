@@ -306,7 +306,7 @@ form {
 /* ------------------------------POPUP--------------------------*/
 
 .content > img {
-max-height:50vh;
+width:100%;
 }
 	.button img{
   border: solid transparent 2px;
