@@ -72,9 +72,17 @@ justify-content: space-around;
 img{
 max-width:100%;
 }
+@media (max-width: 768px){
+.popflex {
+    flex-direction: column !important;
+}
+.popflex > flex-item {
+max-width:100%;
+}
+}
 </style>
                                <h4>SHOES.COM</h4>
-                  <p class="caption"> blah blah blah.</p><div class="flex-grid">
+                  <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
                   <div class="flex-item  flex-inner">
                   <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
    </div><div class="flex-item"> <img src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
