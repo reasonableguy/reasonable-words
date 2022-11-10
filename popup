@@ -53,9 +53,16 @@ min-height:unset !important;
                 <h3>ECOMMERCE</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
-                  <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-                  <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
-                </div>
+                  <h4>SHOES.COM</h4>
+                  <p class="caption"> blah blah blah.</p>
+
+Name3shoes window
+<img  src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg">
+Namedr martens
+<img  src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
+Name2ladies wear heels
+<img  src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+  </div>
               </div>
             </div>
             
@@ -86,33 +93,15 @@ name water
 <img  src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
 Namefall
 <img  src="https://d33wubrfki0l68.cloudfront.net/8289e4be-ee33-4849-93ec-ea3cfe5ad65b/lululemon-fall-category-banners-ORIG.jpg">
-Name2miami zoom 1
-<img  src="https://d33wubrfki0l68.cloudfront.net/36eb6dce-64f3-435f-9f5b-56adc27d5afc/lululemon-miami-beachwear-zoom%20in%201.jpg">
-Name3miami zoom 2
-<img  src="https://d33wubrfki0l68.cloudfront.net/979d623e-df63-4255-9bb4-3b81ba60f46c/lululemon-miami-beachwear-zoom%20in%202.jpg">
-Namedr martens
-<img  src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
-Name2ladies wear heels
-<img  src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
-Name3shoes window
-<img  src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg">
-Namerch open 1
+Name3ddb power smart
+<img  src="https://d33wubrfki0l68.cloudfront.net/6f207d71-2cb9-4c6e-8fa6-89534562fd27/PowerSmart-DDB-FULL.jpg">
+                   Namerch open 1
 <img  src="https://d33wubrfki0l68.cloudfront.net/886ebac8-8778-4037-82cb-23633cfc48a1/rch.jpg">
 Name2rch open 2
 <img  src="https://d33wubrfki0l68.cloudfront.net/983f8fb9-d867-4c3e-92a3-8cf66646d0c9/Screen%20Shot%202017-02-01%20at%2010.35.43%20PM.png">
-Name3ddb power smart
-<img  src="https://d33wubrfki0l68.cloudfront.net/6f207d71-2cb9-4c6e-8fa6-89534562fd27/PowerSmart-DDB-FULL.jpg">
-Nameassembli 1
-<img  src="https://d33wubrfki0l68.cloudfront.net/5657e9d9-25bc-4850-9e5e-adc86f592b2c/Assembli%20Menu%201.png">
-Name2assembli 2
-<img  src="https://d33wubrfki0l68.cloudfront.net/abc4d353-78f9-4835-801c-e68aeeacc3aa/Assembli%20Menu%202.png">
-Name3assembli 3
-<img  src="https://d33wubrfki0l68.cloudfront.net/f8160372-c5c3-41d4-96b0-04ff5be3122b/Assembli%20Menu%203.png">
 
 
-                      <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-                  <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
-                
+                    
                 
 </div>
               </div>
@@ -123,8 +112,14 @@ Name3assembli 3
                 <h3>BRANDING</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
-                  <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
-                  <p >1111 here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum here is a bunch of lorem iopsum</p>
-                </div>
+               <h4>Assembli</h4>
+                  <p class="caption"> blah blah blah.</p>
+                  Nameassembli 1
+<img  src="https://d33wubrfki0l68.cloudfront.net/5657e9d9-25bc-4850-9e5e-adc86f592b2c/Assembli%20Menu%201.png">
+Name2assembli 2
+<img  src="https://d33wubrfki0l68.cloudfront.net/abc4d353-78f9-4835-801c-e68aeeacc3aa/Assembli%20Menu%202.png">
+Name3assembli 3
+<img  src="https://d33wubrfki0l68.cloudfront.net/f8160372-c5c3-41d4-96b0-04ff5be3122b/Assembli%20Menu%203.png">
+</div>
               </div>
             </div>
