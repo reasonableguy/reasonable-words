@@ -52,16 +52,28 @@ min-height:unset !important;
               <div class="popup">
                 <h3>ECOMMERCE</h3>
                 <a class="close" href="#WORK">&times;</a>
-                <div class="content">
-                  <h4>SHOES.COM</h4>
-                  <p class="caption"> blah blah blah.</p>
-
-Name3shoes window
-<img  src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg">
-Namedr martens
-<img  src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
-Name2ladies wear heels
-<img  src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+                <div class="content"><style>
+.flex-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+.flex-item{
+justify-content:space-around;float:left;max-width:45%;flex: 1 0 auto;
+}
+.flex-inner{
+display:flex;
+flex-direction:column;
+}
+img{
+max-width:100%;
+}
+</style>
+                               <h4>SHOES.COM</h4>
+                  <p class="caption"> blah blah blah.</p><div class="flex-grid">
+                  <div class="flex-item  flex-inner">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+   </div><div class="flex-item"> <img src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
+  </div></div>
   </div>
               </div>
             </div>
