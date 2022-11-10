@@ -338,7 +338,7 @@ width:100%;
 }
 
 
-.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8 {
+.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8,.overlay9 {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -349,7 +349,7 @@ width:100%;
   visibility:hidden;
 	opacity: 0;
 }
-.overlay1:target,.overlay2:target,.overlay3:target,.overlay4:target,.overlay5:target,.overlay6:target,.overlay7:target,.overlay8:target {
+.overlay1:target,.overlay2:target,.overlay3:target,.overlay4:target,.overlay5:target,.overlay6:target,.overlay7:target,.overlay8:target,,.overlay9:target {
     visibility:visible;
 opacity: 1;
 }
