@@ -458,9 +458,9 @@ opacity: 1;
     margin: 0 auto;
 }
 .flex-item.services > div {
-    max-width: 300px;
 	margin: 0 auto;
 	 flex: 1 0 50%;
+	    min-width: 384px;
 
 }
 
