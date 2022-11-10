@@ -50,7 +50,7 @@ min-height:unset !important;
 
 <div id="popup1" class="overlay1">
               <div class="popup">
-                <h3>ECOMMERCE</h3>
+                <h3>SHOES.COM</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content"><style>
 .flex-grid{
@@ -85,8 +85,7 @@ max-width:100%;
 }
 }
 </style>
-                               <h4>SHOES.COM</h4>
-                  <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
+                   <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
                   <div class="flex-item  flex-inner">
                   <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
    </div><div class="flex-item"> <img src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
@@ -97,7 +96,7 @@ max-width:100%;
             
             <div id="popup2" class="overlay2">
               <div class="popup">
-                <h3>PACKAGING</h3>
+                <h3>Blended For You</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                   <img  src="https://www.imgacademy.com/sites/default/files/school-about-us-slider-22.jpg">
@@ -108,11 +107,10 @@ max-width:100%;
             
             <div id="popup3" class="overlay3">
               <div class="popup">
-                <h3>ADVERTISING</h3>
+                <h3>lululemon</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                 
-                  <h4>lululemon</h4>
                   <p class="caption">I led the writing team in lululemon’s internal creative department. We created weekly online campaigns, online and offline marketing, and product education. The tone is light-hearted and always focuses on education.</p>
 Namesweatlife
 <img  src="https://d33wubrfki0l68.cloudfront.net/434bcd48-6a7b-45b1-84cf-f14eb76ca635/lulu%20sweatlife-ORIG.png">
@@ -138,10 +136,9 @@ Name2rch open 2
             
             <div id="popup4" class="overlay4">
               <div class="popup">
-                <h3>BRANDING</h3>
+                <h3>ASSEMBLI</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
-               <h4>Assembli</h4>
                   <p class="caption"> blah blah blah.</p>
                   Nameassembli 1
 <img  src="https://d33wubrfki0l68.cloudfront.net/5657e9d9-25bc-4850-9e5e-adc86f592b2c/Assembli%20Menu%201.png">
