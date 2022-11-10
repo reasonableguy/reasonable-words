@@ -354,13 +354,15 @@ opacity: 1;
     right: 0px;
     bottom: 0px;
     background-color: rgba(255,255,255, 0.9);
-    margin: 0;
-    width: 100%;
+      margin: 3px auto;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+	  border: solid var(--color-main) 1px;
 }
 
 .popup h3 {
   margin-top: 0;
-  color: #333;
+  color: var(--color-main);
   font-family: Tahoma, Arial, sans-serif;
 }
 	
@@ -376,7 +378,7 @@ opacity: 1;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: var(--color-main);
 }
 .popup .close:hover {
   color: var(--color-highlight-two);
@@ -397,8 +399,10 @@ opacity: 1;
     right: 0px;
     bottom: 0px;
     background-color: rgba(255,255,255, 0.9);
-    margin: 0;
-    width: 100%;
+     margin: 3px auto;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+	  border: solid var(--color-main) 1px;
   }
 }
 
