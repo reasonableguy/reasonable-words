@@ -323,7 +323,7 @@ width:100%;
   color: #000;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease-out;
+  transition: all 0s ease-out;
 }
 
 
@@ -333,8 +333,8 @@ width:100%;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
-  transition: opacity 500ms;
+  background: rgba(255,255,255, 0.9);
+  transition: opacity 0s;
   visibility:hidden;
 	opacity: 0;
 }
@@ -347,7 +347,7 @@ opacity: 1;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  transition: all 5s ease-in-out;
+  transition: all 0s ease-in-out;
 	    position: fixed;
     top: 0px;
     left: 0px;
