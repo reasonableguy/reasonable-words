@@ -69,6 +69,10 @@ justify-content: space-around;
     justify-content: space-between;
     align-content: center;
 }
+.flex-inner > img:not(:last-child) {
+    margin-bottom: 40px;
+}
+
 img{
 max-width:100%;
 }
