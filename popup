@@ -2,6 +2,38 @@
 .caption {
 min-height:unset !important;
 }
+
+.flex-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+.flex-item{
+justify-content: space-around;
+    float: left;
+    max-width: 45%;
+    flex: 1 0 auto;
+}
+.flex-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+.flex-inner > img:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+img{
+max-width:100%;
+}
+@media (max-width: 768px){
+.popflex {
+    flex-direction: column !important;
+}
+.popflex > .flex-item {
+max-width:100%;
+}
+}
 </style>
 <div id="strategypop" class="overlay5">
               <div class="popup">
@@ -52,39 +84,7 @@ min-height:unset !important;
               <div class="popup">
                 <h3>SHOES.COM</h3>
                 <a class="close" href="#WORK">&times;</a>
-                <div class="content"><style>
-.flex-grid{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;}
-.flex-item{
-justify-content: space-around;
-    float: left;
-    max-width: 45%;
-    flex: 1 0 auto;
-}
-.flex-inner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-}
-.flex-inner > img:not(:last-child) {
-    margin-bottom: 40px;
-}
-
-img{
-max-width:100%;
-}
-@media (max-width: 768px){
-.popflex {
-    flex-direction: column !important;
-}
-.popflex > .flex-item {
-max-width:100%;
-}
-}
-</style>
+                <div class="content">
                    <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
                   <div class="flex-item  flex-inner">
                   <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
@@ -147,5 +147,33 @@ Name2assembli 2
 Name3assembli 3
 <img  src="https://d33wubrfki0l68.cloudfront.net/f8160372-c5c3-41d4-96b0-04ff5be3122b/Assembli%20Menu%203.png">
 </div>
+              </div>
+            </div>
+            
+            <div id="popup9" class="overlay9">
+              <div class="popup">
+                <h3>SHOES.COM</h3>
+                <a class="close" href="#WORK">&times;</a>
+                <div class="content">
+                   <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
+                  <div class="flex-item  flex-inner">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+   </div><div class="flex-item"> <img src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
+  </div></div>
+  </div>
+              </div>
+            </div>
+            
+            <div id="popup10" class="overlay10">
+              <div class="popup">
+                <h3>SHOES.COM</h3>
+                <a class="close" href="#WORK">&times;</a>
+                <div class="content">
+                   <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
+                  <div class="flex-item  flex-inner">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+   </div><div class="flex-item"> <img src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
+  </div></div>
+  </div>
               </div>
             </div>
