@@ -76,7 +76,7 @@ max-width:100%;
 .popflex {
     flex-direction: column !important;
 }
-.popflex > flex-item {
+.popflex > .flex-item {
 max-width:100%;
 }
 }
