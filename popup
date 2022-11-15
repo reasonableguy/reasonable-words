@@ -1,6 +1,8 @@
 <style>
 .caption {
 min-height:unset !important;
+max-width:75ch;
+margin: auto;
 }
 
 .flex-grid{
