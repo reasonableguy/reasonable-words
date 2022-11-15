@@ -166,7 +166,7 @@ max-width:100%;
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
                    <p class="caption"> blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah. blah blah blah.</p><div class="popflex flex-grid">
-                  <div class="flex-item  flex-inner">
+                  <div style="max-width:90%;"class="flex-item  flex-inner">
                                   
 <img  src="https://d33wubrfki0l68.cloudfront.net/886ebac8-8778-4037-82cb-23633cfc48a1/rch.jpg">
 
