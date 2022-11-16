@@ -101,8 +101,10 @@ max-width:100%;
                 <h3>Blended For You</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
-                  <ing src="https://d33wubrfki0l68.cloudfront.net/35506aaa-c2c7-47c4-9962-831f5573eae0/wb-bfy-web-home.jpg">
- <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/35506aaa-c2c7-47c4-9962-831f5573eae0/wb-bfy-web-home.jpg">
+ <p class="caption"> blah blah blah.</p>
+ <div class="popflex flex-grid">
+  <img src="https://d33wubrfki0l68.cloudfront.net/35506aaa-c2c7-47c4-9962-831f5573eae0/wb-bfy-web-home.jpg">
                   <div class="flex-item  flex-inner">
                   <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
    </div><div class="flex-item"><img src="https://d33wubrfki0l68.cloudfront.net/095f05f2-1d68-4fa9-968d-c184485033ee/wb-bfy---sandwich-board.jpg">
