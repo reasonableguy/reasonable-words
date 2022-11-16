@@ -24,8 +24,7 @@ max-width:35%;
 .flex-item{
 justify-content: space-around;
     float: left;
-    max-width: 45%;
-    flex: 1 0 auto;
+       flex: 1 0 auto;
 }
 .flex-inner{
     display: flex;
@@ -45,7 +44,7 @@ max-width:100%;
     flex-direction: column !important;
 }
 .popflex > .flex-item {
-max-width:100%;
+max-width:90%;
 }
 }
 </style>
