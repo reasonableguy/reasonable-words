@@ -4,6 +4,18 @@ min-height:unset !important;
 max-width:75ch;
 margin: auto;
 }
+.half{
+max-width:45%;
+}
+.whole{
+max-width:90%;
+}
+.two-thirds{
+max-width:60%;
+}
+.one-third{
+max-width:35%;
+}
 
 .flex-grid{
     display: flex;
@@ -101,22 +113,25 @@ max-width:100%;
                 <h3>Blended For You</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
-                  <img src="https://d33wubrfki0l68.cloudfront.net/35506aaa-c2c7-47c4-9962-831f5573eae0/wb-bfy-web-home.jpg">
  <p class="caption"> blah blah blah.</p>
  <div class="popflex flex-grid">
-  <img src="https://d33wubrfki0l68.cloudfront.net/35506aaa-c2c7-47c4-9962-831f5573eae0/wb-bfy-web-home.jpg">
-                  <div class="flex-item  flex-inner">
-                  <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
-   </div><div class="flex-item"><img src="https://d33wubrfki0l68.cloudfront.net/095f05f2-1d68-4fa9-968d-c184485033ee/wb-bfy---sandwich-board.jpg">
+ <div class="flex-item  whole">
+ <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
+                  <div class="flex-item  half flex-inner">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
+   </div>
+   <div class="flex-item half ">
+   <img src="https://d33wubrfki0l68.cloudfront.net/095f05f2-1d68-4fa9-968d-c184485033ee/wb-bfy---sandwich-board.jpg">
   </div></div>
     
     
 
 
                    <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
-                  <div class="flex-item" style="max-width:55%;flex:2 0 auto;">
+                  <div class="flex-item two-thirds" style="flex:2 0 auto;">
                   <img src="https://d33wubrfki0l68.cloudfront.net/4a86bbb3-f10c-4e98-92a3-b33da8998d8d/wb-bfy-nutty-athlete--1-100.jpg">
-   </div><div class="flex-item" style="max-width:35%;">
+   </div><div class="flex-item one-third">
 <img src="https://d33wubrfki0l68.cloudfront.net/76589784-214c-4b2b-b562-26d97ea0a6c2/wb-bfy-BFY-The-Nutty-Athlete-copy.jpg">
   </div></div>
   
