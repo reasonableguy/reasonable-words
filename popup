@@ -115,7 +115,7 @@ max-width:90%;
  <p class="caption"> blah blah blah.</p>
  <div class="popflex flex-grid">
  <div class="flex-item  whole">
- <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
+ <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg"></div>
                   <div class="flex-item  half flex-inner">
                   <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
                   <img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
