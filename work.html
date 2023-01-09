@@ -3,18 +3,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.demoWrapper {
-    height: 0;
-    width: 50%;
-    padding-bottom: 50%;
-    background-color: mauve;
-    margin: 0 auto;
-	position:relative;
+.demoWrapper  {
+  width: 50%;
 }
-	.demo-Wrapper > div {
-	position:absolute;
-		top:25%;
-	}
+
+.demoWrapper:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
 	
 </style>
 </head>
