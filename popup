@@ -1,4 +1,9 @@
 <style>
+@media (min-width: 769px){
+.caption {
+font-size:1.8em;
+}
+}
 .caption {
 min-height:unset !important;
 max-width:75ch;
