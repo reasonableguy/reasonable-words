@@ -120,11 +120,12 @@ max-width:100%;
                 <h3>SHOES.COM</h3>
                 <a class="close" href="#WORK">&times;</a>
                 <div class="content">
-                   <p class="caption"> blah blah blah.</p><div class="popflex flex-grid">
-                  <div class="flex-item  flex-inner">
-                  <img src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
-   </div><div class="flex-item"> <img src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
-  </div></div>
+                   <p class="caption">I lead the brand writing&mdash;and later brand creative services&mdash;team. We wrote for one Canadian and two U.S. sites, and catered to the differeing demographic nuances. The images below for the Rules Are Made to Be Broken campaign show some of the signage we created for the Toronto brick-and-motar store, and the associated email push.</p><div class="popflex flex-grid">
+                 
+                  <img class="gap half sm-whole" src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg">
+                  <img class="gap half sm-whole"  src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+ <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
+</div>
   </div>
               </div>
             </div>
