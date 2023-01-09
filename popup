@@ -58,7 +58,7 @@ max-width:100%;
 max-width:90%;
 }
 .sm-whole {
-max-width:calc(100);
+max-width:100%;
 }
 </style>
 <div id="strategypop" class="overlay5">
