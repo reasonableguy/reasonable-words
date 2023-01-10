@@ -173,24 +173,7 @@ min-height: 50px);
        margin: 0 auto;
 		}
 		}
-		#servicesheader-container-top {
-	height: 1px;
-	background-color: blue;
-}
-		.servicesheader-sticky {
-	background-color: green !important;
-}
-
-.clientsheader-sticky {
-	background-color: red !important;
-}
-
-		.workheader-sticky {
-	background-color: red !important;
-}
-			.contactheader-sticky {
-	background-color: red !important;
-}	
+		
 	</style>
 	
 </head>
@@ -220,12 +203,12 @@ background-color: #bdc3c7;
     background-color: #ecf0f1;
     height: 2000px;
 }
-    #nav-container-top, #nav-container-top2 {
+    #servicesheader-container-top, #nav-container-top2 {
 	height: 1px;
 	background-color: blue;
 }
 
-#nav-container, #nav-container2 {
+#servicesheader, #nav-container2 {
 	    background-color: #2980b9;
     height: 60px;
     line-height: 60px;
@@ -238,7 +221,7 @@ background-color: #bdc3c7;
     transition: font-size 0.2s ease-out;
 }
 
-.nav-container-sticky {
+.servicesheader-sticky {
 	background-color: green !important;
 }
 
@@ -247,22 +230,6 @@ background-color: #bdc3c7;
 }
 
 </style>
-	<div id="logo-container"></div>
-    <div id="nav-container-top"></div>
-    <div id="nav-container">Navigation Container</div>
-    <div id="main-container"></div>
-	<script>
-var observer = new IntersectionObserver(function(entries) {
-	// no intersection with screen
-	if(entries[0].intersectionRatio === 0)
-		document.querySelector("#nav-container").classList.add("nav-container-sticky");
-	// fully intersects with screen
-	else if(entries[0].intersectionRatio === 1)
-		document.querySelector("#nav-container").classList.remove("nav-container-sticky");
-}, { threshold: [0,1] });
-
-observer.observe(document.querySelector("#nav-container-top"));
-</script>
 		<div id="servicesheader-container-top"></div>
 
 	<div id="servicesheader" style="z-index:2;" class="sticky  desktop-title  section">
@@ -339,9 +306,7 @@ observer.observe(document.querySelector("#nav-container-top"));
 	<div class="flex-item"><a href="#pagetop"">Back to top of page</a></div>
 </div>
 
-		
-	</body>
-		<script>
+	<script>
 var observer = new IntersectionObserver(function(entries) {
 	// no intersection with screen
 	if(entries[0].intersectionRatio === 0)
@@ -351,6 +316,8 @@ var observer = new IntersectionObserver(function(entries) {
 		document.querySelector("#servicesheader").classList.remove("servicesheader-sticky");
 }, { threshold: [0,1] });
 
-observer.observe(document.querySelector("#servicesheader--container-top"));
-</script>
+observer.observe(document.querySelector("#servicesheader-container-top"));
+</script>	
+	</body>
+
 </html>
