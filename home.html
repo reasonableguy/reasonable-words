@@ -173,7 +173,14 @@ min-height: 50px);
        margin: 0 auto;
 		}
 		}
-		
+		.sticky{
+position:sticky;
+top:70px;
+}
+.shadow{
+color:red;
+z-index:5;
+}
 	</style>
 	
 </head>
@@ -259,5 +266,20 @@ min-height: 50px);
   <div class="flex-item">1</div>
 	<div class="flex-item"><a href="#pagetop"">Back to top of page</a></div>
 </div>
+		<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.querySelector(".sticky");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("shadow");
+  } else {
+    header.classList.remove("shadow");
+  }
+}
+</script>
+		
 	</body>
 </html>
