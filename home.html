@@ -173,15 +173,24 @@ min-height: 50px);
        margin: 0 auto;
 		}
 		}
-		.sticky1{
-position:sticky;
-top:100px;
+		#servicesheader-container-top {
+	height: 1px;
+	background-color: blue;
 }
-.shadow{
-color:red;
-	background-color:pink;
-z-index:5;
+		#servicesheader-sticky {
+	background-color: green !important;
 }
+
+#clientsheader-sticky {
+	background-color: red !important;
+}
+
+		#workheader-sticky {
+	background-color: red !important;
+}
+			#contactheader-sticky {
+	background-color: red !important;
+}	
 	</style>
 	
 </head>
@@ -202,7 +211,9 @@ z-index:5;
 
 	
 <div id="services" >
-	<div style="z-index:2;" class="sticky  desktop-title  section">
+		<div id="servicesheader-container-top"></div>
+
+	<div id="servicesheader" style="z-index:2;" class="sticky  desktop-title  section">
 	<div class="flex-grid h2">
 		<div class="bar flex-item">
 		</div>
@@ -219,7 +230,10 @@ z-index:5;
 </div>
 	
 	
-<div id="clients"> <div style="z-index:2;" class="sticky sticky1 desktop-title section">
+<div id="clients">
+		<div id="clientsheader-container-top"></div>
+
+	<div  id="clientsheader" style="z-index:2;" class="sticky  desktop-title section">
 	<div class="flex-grid h2">
 		<div class="bar flex-item">
 		</div>
@@ -234,7 +248,10 @@ z-index:5;
 <div class="sectionpage"  style="z-index:1;" w3-include-html="/clients.html"></div>
 	</div>
 	
-<div id="work"><div style="z-index:2;" class="sticky desktop-title section">
+<div id="work">
+		<div id="workheader-container-top"></div>
+
+	<div  id="workheader" style="z-index:2;" class="sticky desktop-title section">
 	<div class="flex-grid h2">
 		<div class="bar flex-item"></div>
 		<h2 id="works" class="h2 flex-item">WORK</h2>
@@ -245,7 +262,9 @@ z-index:5;
 	</div>
 	
 	
-<div id="contact"><div style="z-index:2;" class="sticky desktop-title section">
+<div id="contact">
+	<div id="contactheader-container-top"></div>
+	<div  id="contactheader"  style="z-index:2;" class="sticky desktop-title section">
 	<div class="flex-grid h2">
 		<div class="bar flex-item"></div>
 		<h2 class="h2 flex-item">SAY HI</h2>
@@ -267,20 +286,19 @@ z-index:5;
   <div class="flex-item">1</div>
 	<div class="flex-item"><a href="#pagetop"">Back to top of page</a></div>
 </div>
-		<script>
-window.onscroll = function() {myFunction()};
 
-var header = document.querySelector(".sticky1");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky1) {
-    header.classList.add("shadow");
-  } else {
-    header.classList.remove("shadow");
-  }
-}
-</script>
 		
 	</body>
+		<script>
+var observer = new IntersectionObserver(function(entries) {
+	// no intersection with screen
+	if(entries[0].intersectionRatio === 0)
+		document.querySelector("#servicesheader").classList.add("servicesheader-container-sticky");
+	// fully intersects with screen
+	else if(entries[0].intersectionRatio === 1)
+		document.querySelector("#servicesheader").classList.remove("servicesheader-container-sticky");
+}, { threshold: [0,1] });
+
+observer.observe(document.querySelector("#servicesheader--container-top"));
+</script>
 </html>
