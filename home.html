@@ -173,12 +173,13 @@ min-height: 50px);
        margin: 0 auto;
 		}
 		}
-		.sticky{
+		.sticky1{
 position:sticky;
-top:70px;
+top:100px;
 }
 .shadow{
 color:red;
+	background-color:pink;
 z-index:5;
 }
 	</style>
@@ -218,7 +219,7 @@ z-index:5;
 </div>
 	
 	
-<div id="clients"> <div style="z-index:2;" class="sticky desktop-title section">
+<div id="clients"> <div style="z-index:2;" class="sticky sticky1 desktop-title section">
 	<div class="flex-grid h2">
 		<div class="bar flex-item">
 		</div>
@@ -269,11 +270,11 @@ z-index:5;
 		<script>
 window.onscroll = function() {myFunction()};
 
-var header = document.querySelector(".sticky");
+var header = document.querySelector(".sticky1");
 var sticky = header.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset > sticky) {
+  if (window.pageYOffset > sticky1) {
     header.classList.add("shadow");
   } else {
     header.classList.remove("shadow");
