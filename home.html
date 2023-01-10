@@ -177,18 +177,18 @@ min-height: 50px);
 	height: 1px;
 	background-color: blue;
 }
-		#servicesheader-sticky {
+		.servicesheader-sticky {
 	background-color: green !important;
 }
 
-#clientsheader-sticky {
+.clientsheader-sticky {
 	background-color: red !important;
 }
 
-		#workheader-sticky {
+		.workheader-sticky {
 	background-color: red !important;
 }
-			#contactheader-sticky {
+			.contactheader-sticky {
 	background-color: red !important;
 }	
 	</style>
@@ -345,10 +345,10 @@ observer.observe(document.querySelector("#nav-container-top"));
 var observer = new IntersectionObserver(function(entries) {
 	// no intersection with screen
 	if(entries[0].intersectionRatio === 0)
-		document.querySelector("#servicesheader").classList.add("servicesheader-container-sticky");
+		document.querySelector("#servicesheader").classList.add("servicesheader-sticky");
 	// fully intersects with screen
 	else if(entries[0].intersectionRatio === 1)
-		document.querySelector("#servicesheader").classList.remove("servicesheader-container-sticky");
+		document.querySelector("#servicesheader").classList.remove("servicesheader-sticky");
 }, { threshold: [0,1] });
 
 observer.observe(document.querySelector("#servicesheader--container-top"));
