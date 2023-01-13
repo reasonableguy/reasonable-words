@@ -322,9 +322,15 @@ width:100%;
 	.button img{
   border: solid transparent 2px;
 } 
-.button:hover {
+.row:hover {
   border: solid var(--color-main) 2px;
 } 
+.row{
+	pointer-events:none;
+}
+.service{
+	pointer-events:auto;
+}
 	.row-work{
 		padding:0 !important;
 	}
