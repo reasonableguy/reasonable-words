@@ -322,7 +322,7 @@ width:100%;
 	.button img{
   border: solid transparent 2px;
 } 
-.button:hover img{
+.button:hover {
   border: solid var(--color-main) 2px;
 } 
 	.row-work{
