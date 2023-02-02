@@ -382,9 +382,7 @@ opacity: 1;
   color: var(--color-main);
 }
 	
-	.popup>.content>p{
-		min-height:100vh;
-	}
+	
 	
 .popup .close {
   position: absolute;
@@ -400,7 +398,7 @@ opacity: 1;
   color: var(--color-highlight-two);
 }
 .popup .content {
-  max-height: 90%;
+  height: 90%;
   overflow: auto;
 }
 
