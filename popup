@@ -81,6 +81,9 @@ max-width:100%;
   display: flex;
   width:50%;
   flex-wrap: wrap;
+  border: 1px solid var(--color-main);
+    padding: 20px;
+    margin: 5px;
 }
 .pop-flex-container > div {
   width: 20%;
