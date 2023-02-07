@@ -70,13 +70,7 @@ max-width:90%;
 max-width:100%;
 }
 </style>
-<div id="strategypop" class="overlay5">
-              <div class="popup">
-                <h3>STRATEGY</h3>
-                <a class="close" href="#services">&times;</a>
-                <div class="content">
-                  <p>I provide both brand strategy and content strategy. In the first case I help organisations express, clearly and consistently, who they are and what they stand for. With content strategy, I work with brands to identify where and how to talk to their audiences. Below is a sample of agencies and organisations I've had the pleasure of working with.</p>
-                             <style>
+ <style>
 .pop-flex-container {
   display: flex;
   width:calc(50% - 20px);
@@ -85,6 +79,9 @@ max-width:100%;
     padding: 20px;
     margin: 5px;
 }
+.pop-flex-container:only-child {
+    margin: 5px auto;
+    }
 .pop-flex-container > div {
   width: 20%;
   margin: 2.5%;
@@ -114,17 +111,28 @@ font-size:3.6vw;
 }
 }
 </style>
-
+<div id="strategypop" class="overlay5">
+              <div class="popup">
+                <h3>STRATEGY</h3>
+                <a class="close" href="#services">&times;</a>
+                <div class="content">
+                  <p>I provide both brand strategy and content strategy. In the first case I help organisations express, clearly and consistently, who they are and what they stand for. With content strategy, I work with brands to identify where and how to talk to their audiences. Below is a sample of agencies and organisations I've had the pleasure of working with.</p>
+                            
+<div class="bigflex">
 <div class="pop-flex-container">
 <div style="background-image:url('https://64.media.tumblr.com/5961cfa8d3e1a4c1a7d7a922fa32f04a/tumblr_inline_qp40iqwcSj1qbxyt6_500.png')" alt="College of New Caledonia Square" ></div>
 <div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/e71c36d7-bd3a-4df8-9c46-6f1655e10b31/500%20Dossier.png')" alt="Dossier"></div>
 <div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/eaa963b8-6f25-458d-93d8-d96c958e79df/500%20Freybe.png')" alt="Freybe"></div>
 <div style="background-image:url('https://64.media.tumblr.com/f98f93cf340faa40700f0e8b80fea0c0/tumblr_inline_qp3tadpXLs1qbxyt6_500.png')" alt="Fresh Tracks Canada" ></div>
+</div>
+<div class="pop-flex-container">
 <div style="background-image:url('https://64.media.tumblr.com/fd5935046ad4d5baabc797776a11af6f/tumblr_inline_qnk975itnT1qbxyt6_500.png')" alt="HCMA Architecture + Design" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/bcf32af2683f64d0bf901a03d2e24909/tumblr_inline_qp3tf1UJDj1qbxyt6_500.png')" alt="Shoes.com square" ></div>
+</div>
+
 </div>
 </div></div></div>
             
@@ -216,6 +224,7 @@ font-size:3.6vw;
 
 <div class="bigflex">
 <div class="pop-flex-container">
+<h4>Shopify E-Commerce</h4>
 <div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
 <div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/ec1be5f4-7495-44e9-971e-b6d2bbdd6265/500%20Chef%20Cherise.png')" alt="Chef Cherise" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/c0a1876cf0a9a2968ab3d13b479ccffe/tumblr_inline_qp3uptXoHN1qbxyt6_500.png')" alt="siegel's bagels" ></div>
