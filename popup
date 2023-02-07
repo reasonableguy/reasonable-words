@@ -87,13 +87,14 @@ max-width:100%;
     margin: 5px auto;
     }
 .pop-flex-container > div {
-  width: 20%;
-  margin: 2.5%;
-height:0;
-padding-bottom:20%;
-background-size:contain;
-background-repeat:no-repeat;
-}
+    width: 33%;
+    margin: 2.5% 8.5%;
+    height: 0;
+    padding-bottom: 33%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    
 .pop-flex-container h4{
 width:100%;
 font-size:1.9vw;
