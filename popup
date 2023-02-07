@@ -79,6 +79,7 @@ max-width:100%;
                              <style>
 .pop-flex-container {
   display: flex;
+  width:50%;
   flex-wrap: wrap;
 }
 .pop-flex-container > div {
@@ -88,6 +89,9 @@ height:0;
 padding-bottom:20%;
 background-size:contain;
 background-repeat:no-repeat;
+}
+
+@media (max-width: 768px){
 }
 </style>
 
@@ -111,22 +115,25 @@ background-repeat:no-repeat;
                 <div class="content">
                   <p>Words are my bread and butter. In my spare time, I love to get a mouthful of them, let the flavours sit on my tongue so that later I can serve up the perfect word at the right moment. I started my professional career teaching English, Journalism and Media Studies in High School. I've since worked in-house or freelance in advertising and marketing, journalism, education, and ecommerce and the web.</p>
                
-<h4>Ecommerce</h4>
+
 <div class="pop-flex-container">
+<h4>Ecommerce</h4>
 <div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
 <div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/eaa963b8-6f25-458d-93d8-d96c958e79df/500%20Freybe.png')" alt="Freybe"></div>
 <div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/c0a1876cf0a9a2968ab3d13b479ccffe/tumblr_inline_qp3uptXoHN1qbxyt6_500.png')" alt="siegel's bagels" ></div>    
 </div> 
-<h4>Web Copy</h4>
+
 <div class="pop-flex-container">
+<h4>Web Copy</h4>
 <div style="background-image:url('https://64.media.tumblr.com/6543901dd28e38a3ee0aaad12d5b1422/tumblr_inline_qp3tb2jJAT1qbxyt6_500.png')" alt="BCAA" ></div>
 <div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/8ec98805-986c-48cd-84e2-1e01aec8373d/500%20Bluesky%20Properties.png')" alt="Blue Sky Properties"></div>
 <div style="background-image:url('https://64.media.tumblr.com/f98f93cf340faa40700f0e8b80fea0c0/tumblr_inline_qp3tadpXLs1qbxyt6_500.png')" alt="Fresh Tracks Canada" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/d270092dd8a678f76c61ff56ac49905c/tumblr_inline_qp3tb9BgiE1qbxyt6_500.png')" alt="ProShow Audiovisual" ></div>
 </div> 
-<h4>Not-for-Profit Awareness Campaigns</h4>
+
 <div class="pop-flex-container">
+<h4>Not-for-Profit Awareness Campaigns</h4>
 <div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/97aca8916c542fdab25746db8b7cb749/tumblr_inline_qp3tfoE7OC1qbxyt6_500.png')" alt="RainCity Housing Square" ></div>
