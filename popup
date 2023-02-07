@@ -90,8 +90,16 @@ padding-bottom:20%;
 background-size:contain;
 background-repeat:no-repeat;
 }
-
+.bigflex{
+display: flex;
+    flex-wrap: wrap;
+}
 @media (max-width: 768px){
+.pop-flex-container {
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+}
 }
 </style>
 
@@ -115,7 +123,7 @@ background-repeat:no-repeat;
                 <div class="content">
                   <p>Words are my bread and butter. In my spare time, I love to get a mouthful of them, let the flavours sit on my tongue so that later I can serve up the perfect word at the right moment. I started my professional career teaching English, Journalism and Media Studies in High School. I've since worked in-house or freelance in advertising and marketing, journalism, education, and ecommerce and the web.</p>
                
-
+<div class="bigflex">
 <div class="pop-flex-container">
 <h4>Ecommerce</h4>
 <div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
@@ -140,6 +148,15 @@ background-repeat:no-repeat;
 <div style="background-image:url('https://64.media.tumblr.com/bf8f8b61e284f0c98e4c702cba49ae24/tumblr_inline_qp3t9x3OHh1qbxyt6_500.png')" alt="Teach to One Math Square" ></div>
 </div> 
 
+<div class="pop-flex-container">
+<h4>Not-for-Profit Awareness Campaigns</h4>
+<div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/97aca8916c542fdab25746db8b7cb749/tumblr_inline_qp3tfoE7OC1qbxyt6_500.png')" alt="RainCity Housing Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/bf8f8b61e284f0c98e4c702cba49ae24/tumblr_inline_qp3t9x3OHh1qbxyt6_500.png')" alt="Teach to One Math Square" ></div>
+</div> 
+
+</div>
 </div>
 </div>
 </div>
