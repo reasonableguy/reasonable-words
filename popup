@@ -95,6 +95,7 @@ background-repeat:no-repeat;
 }
 .pop-flex-container h4{
 width:100%;
+font-size:1.9vw;
 }
 
 .bigflex{
@@ -106,6 +107,10 @@ display: flex;
   display: flex;
   width:100%;
   flex-wrap: wrap;
+}
+.pop-flex-container h4{
+width:100%;
+font-size:3.6vw;
 }
 }
 </style>
