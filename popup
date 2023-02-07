@@ -90,6 +90,10 @@ padding-bottom:20%;
 background-size:contain;
 background-repeat:no-repeat;
 }
+.pop-flex-container h4{
+width:100%;
+}
+
 .bigflex{
 display: flex;
     flex-wrap: wrap;
