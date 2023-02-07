@@ -55,7 +55,11 @@ justify-content: space-around;
 .flex-inner > img:not(:last-child) {
     margin-bottom: 40px;
 }
-
+.content p {
+    max-width: 75ch;
+    margin: 16px auto;
+    }
+    
 img{
 max-width:100%;
 }
