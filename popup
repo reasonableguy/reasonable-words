@@ -319,11 +319,12 @@ font-size:3.6vw;
 
           <p class="caption"> blah blah blah.</p>
           <div class="popflex flex-grid">
-            <div class="flex-item one-quarter">
+            <div class="flex-item half">
               <img src="https://d33wubrfki0l68.cloudfront.net/b6ada591-e594-4871-8edb-420466173d72/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
             </div>
-            <div class="flex-item three-quarters">
+            <div class="flex-item half">
               <img src="https://d33wubrfki0l68.cloudfront.net/5e410d05-078a-4e32-a52f-2d4de92ab689/BFY-Blue-Coconut-Keto.jpg">
+              <img src="https://d33wubrfki0l68.cloudfront.net/c81d1997-77c0-47bc-bc09-d62db7ee2337/immunity-6-pack-rect.jpg">
             </div>
           </div>
 
