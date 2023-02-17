@@ -291,7 +291,8 @@ font-size:3.6vw;
       <a class="close" href="#WORK">×</a>
         <div class="content">
           
-          <h4>website</h4>
+          <h4>Website Design & Front-End Development</h4>
+            <p class="caption">I design and build the Blended For You e-commerce website, providing on-going technical support and image editing.</p>
           <div class="popflex flex-grid">
             <div class="flex-item  half">
               <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
@@ -302,7 +303,8 @@ font-size:3.6vw;
             
           </div>
           
-          <p class="caption">Danforth</p>
+          <h4>Instore Signage</h4>
+          <p class="caption">I provide </p>
           <div class="popflex flex-grid">  
             <div class="flex-item  one-third flex-inner">
               <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
