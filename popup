@@ -286,31 +286,37 @@ font-size:3.6vw;
           
           <p class="caption">website</p>
           <div class="popflex flex-grid">
-            <div class="flex-item  whole">
+            <div class="flex-item  half">
               <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
             </div>
+                <div class="flex-item  half">
+              <img src="https://d33wubrfki0l68.cloudfront.net/8db7124b-9c9a-44d0-b6c5-40ce81d210f4/subscription-page.jpg">
+            </div>
+            
           </div>
           
           <p class="caption">Danforth</p>
           <div class="popflex flex-grid">  
-            <div class="flex-item  half flex-inner">
+            <div class="flex-item  one-third flex-inner">
               <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
-              <img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/1f9d6c36-a1c8-466b-94ee-54af4d6152e8/wb-bfy-menu-cards-copy.jpg">
             </div>
-            <div class="flex-item half ">
+            <div class="flex-item one-third ">
               <img src="https://d33wubrfki0l68.cloudfront.net/095f05f2-1d68-4fa9-968d-c184485033ee/wb-bfy---sandwich-board.jpg">
-              <img src="https://d33wubrfki0l68.cloudfront.net/1f9d6c36-a1c8-466b-94ee-54af4d6152e8/wb-bfy-menu-cards-copy.jpg">
+            </div>
+              <div class="flex-item one-third ">
+        <img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
 
             </div>
           </div>
 
           <p class="caption"> blah blah blah.</p>
           <div class="popflex flex-grid">
-            <div class="flex-item three-fifths">
-              <img src="https://d33wubrfki0l68.cloudfront.net/4a86bbb3-f10c-4e98-92a3-b33da8998d8d/wb-bfy-nutty-athlete--1-100.jpg">
+            <div class="flex-item one-quarter">
+              <img style="tranform:rotate(90deg);" src="https://d33wubrfki0l68.cloudfront.net/a2a71308-0281-4d63-bb07-b78b085cc2af/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
             </div>
-            <div class="flex-item two-fifths">
-              <img src="https://d33wubrfki0l68.cloudfront.net/76589784-214c-4b2b-b562-26d97ea0a6c2/wb-bfy-BFY-The-Nutty-Athlete-copy.jpg">
+            <div class="flex-item one-quarter">
+              <img src="https://d33wubrfki0l68.cloudfront.net/5e410d05-078a-4e32-a52f-2d4de92ab689/BFY-Blue-Coconut-Keto.jpg">
             </div>
           </div>
 
