@@ -293,13 +293,8 @@ font-size:3.6vw;
           
           <h4>Website Design & Front-End Development</h4>
             <p class="caption">I design and build the Blended For You e-commerce website, providing on-going technical support and image editing.</p>
-          <div class="bigflex">
-            <div class="pop-flex-container whole">
-              <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
-                      <img src="https://d33wubrfki0l68.cloudfront.net/8db7124b-9c9a-44d0-b6c5-40ce81d210f4/subscription-page.jpg">
-            </div>
-            
-          </div>
+                   <div class="popflex flex-grid">  
+
           
            <div class="flex-item  half">
               <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
