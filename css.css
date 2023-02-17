@@ -453,7 +453,7 @@ padding: 5px 0;
 
 .flex-item.services {
     background-color: transparent;
-    flex: 1 0 100%;
+    flex: 1 0 50%;
     /* margin: 0 auto 20px; */
     display: flex;
     flex-direction: row;
