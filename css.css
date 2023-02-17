@@ -465,7 +465,7 @@ padding: 5px 0;
 .flex-item.services > div {
 	margin: 0 auto;
 	 flex: 1 0 50%;
-	    min-width: 384px;
+	    min-width: 100%;
 
 }
 
