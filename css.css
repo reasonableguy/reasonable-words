@@ -436,8 +436,9 @@ opacity: 1;
 }
 
 .flex-grid.section {
-  max-width:1440px;
-	margin:auto;
+      max-width: 1024px;
+    margin: auto;
+    width: 66%;
 }
 .flex-grid.h2 {
 padding: 5px 0;
