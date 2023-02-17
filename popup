@@ -12,9 +12,14 @@ margin: auto auto 20px auto;
 .gap {
 margin-bottom:5px;
 }
-
+.one-quarter{
+max-width:calc(25% - 40px);
+}
 .half{
 max-width:calc(50% - 40px);
+}
+.three-quarters{
+max-width:calc(75% - 40px);
 }
 .whole{
 max-width:calc(100% - 40px);
@@ -315,7 +320,7 @@ font-size:3.6vw;
             <div class="flex-item one-quarter">
               <img style="tranform:rotate(90deg);" src="https://d33wubrfki0l68.cloudfront.net/a2a71308-0281-4d63-bb07-b78b085cc2af/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
             </div>
-            <div class="flex-item one-quarter">
+            <div class="flex-item three-quarters">
               <img src="https://d33wubrfki0l68.cloudfront.net/5e410d05-078a-4e32-a52f-2d4de92ab689/BFY-Blue-Coconut-Keto.jpg">
             </div>
           </div>
