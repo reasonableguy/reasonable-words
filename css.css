@@ -491,6 +491,12 @@ flex: 2;
        width: unset;
 }
 }
+@media only screen and (max-width: 983px) {
+.flex-item.services {
+    flex: 1 0 50%;
+
+}
+}
 
 @media (max-width: 768px) {
   .flex-item.services > div {
