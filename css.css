@@ -486,6 +486,12 @@ flex: 2;
 
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
+@media only screen and (max-width: 1193px) {
+	.flex-grid.section {
+       width: unset;
+}
+}
+
 @media (max-width: 768px) {
   .flex-item.services > div {
 			    padding: 0 20px;
