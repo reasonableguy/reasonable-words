@@ -291,7 +291,7 @@ font-size:3.6vw;
       <a class="close" href="#WORK">×</a>
         <div class="content">
           
-          <p class="caption">website</p>
+          <h4>website</h4>
           <div class="popflex flex-grid">
             <div class="flex-item  half">
               <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
@@ -330,16 +330,13 @@ font-size:3.6vw;
 
       <p class="caption">Postcards</p>
           <div class="popflex flex-grid">  
-            <div class="flex-item  half flex-inner">
+            <div class="flex-item half">
 <img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
+            </div>
+          <div class="flex-item half">
 <img src="https://d33wubrfki0l68.cloudfront.net/26233ba0-1dc9-4130-806f-dcbc34e0ad5c/wb-bfy-Blended-For-You-5x7-card-cleanse-reset-feb-2022-v22-copy.jpg">
             </div>
-            <div class="flex-item half flex-inner">
-<img src="https://d33wubrfki0l68.cloudfront.net/30dfdc3e-91c9-4637-821e-0af9d8ae1a29/wb-bfy-Blended-For-You-5x7-card-LCC-light-copy-2.jpg">
-<img src="https://d33wubrfki0l68.cloudfront.net/4a35e129-e49e-4334-b2ee-61f93db50380/wb-bfy-gm-poster-copy.jpg">
-
             </div>
-          </div>
 
 
       <p class="caption">Ads</p>
