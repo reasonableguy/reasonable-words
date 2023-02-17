@@ -42,16 +42,16 @@ max-width:calc(80% - 40px);
 
 
 
-.flex-grid{
+.popflex.flex-grid{
     display: flex;
     flex-direction: row;
-    justify-content: center;}
-.flex-item{
+    justify-content: center;
+             border: 1px solid var(--color-main);
+}
+.flex-item {
 justify-content: space-around;
     float: left;
        flex: 1 0 auto;
-         border: 1px solid var(--color-main);
-
 }
 .flex-inner{
     display: flex;
@@ -320,7 +320,7 @@ font-size:3.6vw;
           <p class="caption"> blah blah blah.</p>
           <div class="popflex flex-grid">
             <div class="flex-item one-quarter">
-              <img style="tranform:rotate(90deg);" src="https://d33wubrfki0l68.cloudfront.net/a2a71308-0281-4d63-bb07-b78b085cc2af/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
+              <img src="https://d33wubrfki0l68.cloudfront.net/b6ada591-e594-4871-8edb-420466173d72/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
             </div>
             <div class="flex-item three-quarters">
               <img src="https://d33wubrfki0l68.cloudfront.net/5e410d05-078a-4e32-a52f-2d4de92ab689/BFY-Blue-Coconut-Keto.jpg">
