@@ -332,18 +332,19 @@ font-size:3.6vw;
 
             <h4>Ads & Marketing</h4>
             <div class="popflex flex-grid">  
-                <div class="flex-item  half">
+                <div class="flex-item flex-inner half">
                     <img src="https://d33wubrfki0l68.cloudfront.net/e7ca24b7-8d19-4be2-b87b-5c8c7b25c6ab/wb-bfy-Green-Smoothie-Cleanse-1200x667-text-2-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/d119365b-1ea4-41b7-ada7-4db6857feed8/wb-bfy-Woman-Cleanse-1200x667-copy-3.jpg">
                 </div>
-                <div class="flex-item half ">
+                <div class="flex-item flex-inner half ">
                     <img src="https://d33wubrfki0l68.cloudfront.net/af077d4b-9ac6-47cf-a729-c3cc403db2f3/wb-bfy-Green-Daily-Dose-Cleanse-667x667-text-3-copy.jpg">
                 </div>
-                  <div class="flex-item half">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
-                </div>
-                <div class="flex-item half">
+                  <div class="flex-item flex-inner  half">
                     <img src="https://d33wubrfki0l68.cloudfront.net/26233ba0-1dc9-4130-806f-dcbc34e0ad5c/wb-bfy-Blended-For-You-5x7-card-cleanse-reset-feb-2022-v22-copy.jpg">
                 </div>
+                <div class="flex-item flex-inner half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
+                </div>
+              
             </div>
         </div>  
     </div>
