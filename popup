@@ -292,7 +292,7 @@ font-size:3.6vw;
         <div class="content">
             
             <h4>Website Design & Front-End Development</h4>
-            <p class="caption">I design and build the Blended For You e-commerce website, providing on-going technical support and image editing.</p>
+            <p class="caption">I work with the founder of Blended For You to to provide on-going design, image, and technical support for their ecommerce website. This covers everything from editing product images and creating new product pages to managing shipping rates or custom building a new way for guests to order subscriptions.</p>
             <div class="popflex flex-grid">  
                 <div class="flex-item  half">
                     <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
@@ -302,8 +302,8 @@ font-size:3.6vw;
                 </div>
             </div>
             
-            <h4>Instore Signage</h4>
-            <p class="caption">I provide </p>
+            <h4>Store Signage</h4>
+            <p class="caption">I create signage and artwork for Blended For You's Danforth store, as well as any assets needed for partnerships with other stores or health studios.  </p>
             <div class="popflex flex-grid">  
                 <div class="flex-item  one-third flex-inner">
                     <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
@@ -318,7 +318,7 @@ font-size:3.6vw;
             </div>
 
             <h4>Packaging Design</h4>
-            <p class="caption">I provide </p>
+            <p class="caption">I work with the Blended For You team to create the artwork files for appealing packaging that provides all the information customers (and govenments) require.</p>
             <div class="popflex flex-grid">
                 <div class="flex-item two-fifths">
                     <img src="https://d33wubrfki0l68.cloudfront.net/b6ada591-e594-4871-8edb-420466173d72/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
@@ -329,25 +329,22 @@ font-size:3.6vw;
                 </div>
             </div>
 
-            <h4>Postcards</h4>
-            <p class="caption">I provide </p>
-            <div class="popflex flex-grid">  
-                <div class="flex-item half">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
-                </div>
-                <div class="flex-item half">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/26233ba0-1dc9-4130-806f-dcbc34e0ad5c/wb-bfy-Blended-For-You-5x7-card-cleanse-reset-feb-2022-v22-copy.jpg">
-                </div>
-            </div>
+  
 
-            <h4>Ads</h4>
-            <p class="caption">I provide </p>
+            <h4>Ads & Marketing</h4>
+            <p class="caption">I create the artwork for virtual and real-world marketing assets, from Google and Facebook ads to postcards and magazine advertisements.</p>
             <div class="popflex flex-grid">  
                 <div class="flex-item  half">
                     <img src="https://d33wubrfki0l68.cloudfront.net/e7ca24b7-8d19-4be2-b87b-5c8c7b25c6ab/wb-bfy-Green-Smoothie-Cleanse-1200x667-text-2-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/d119365b-1ea4-41b7-ada7-4db6857feed8/wb-bfy-Woman-Cleanse-1200x667-copy-3.jpg">
                 </div>
                 <div class="flex-item half ">
                     <img src="https://d33wubrfki0l68.cloudfront.net/af077d4b-9ac6-47cf-a729-c3cc403db2f3/wb-bfy-Green-Daily-Dose-Cleanse-667x667-text-3-copy.jpg">
+                </div>
+                  <div class="flex-item half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
+                </div>
+                <div class="flex-item half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/26233ba0-1dc9-4130-806f-dcbc34e0ad5c/wb-bfy-Blended-For-You-5x7-card-cleanse-reset-feb-2022-v22-copy.jpg">
                 </div>
             </div>
         </div>  
