@@ -6,7 +6,7 @@ font-size:1.2em;
 }
 .caption {
 min-height:unset !important;
-max-width:50ch;
+max-width:65ch;
 margin: auto auto 20px auto;
 }
 .gap {
@@ -290,10 +290,8 @@ font-size:3.6vw;
         <h3>Blended For You</h3>
         <a class="close" href="#WORK">×</a>
         <div class="content">
-                        <p class="caption">I work with the founder of Blended For You to to provide on-going design, image, and technical support for their ecommerce website. This covers everything from editing product images and creating new product pages to managing shipping rates or custom building a new way for guests to order subscriptions.</p>
-            <p class="caption">I create signage and artwork for Blended For You's Danforth store, as well as any assets needed for partnerships with other stores or health studios.  </p>
-            <p class="caption">I work with the Blended For You team to create the artwork files for appealing packaging that provides all the information customers (and govenments) require.</p>
-            <p class="caption">I create the artwork for virtual and real-world marketing assets, from Google and Facebook ads to postcards and magazine advertisements.</p>
+                        <p class="caption">I work with the founder of Blended For You to provide on-going design and technical support for their ecommerce website, their Toronto store, and various collaborations with commercial partners. This covers everything from creating the artwork files for their packaging or creating store signage and marketing assets to creating new product pages in Shopify or custom building a new way for guests to order subscriptions. 
+                        </p>
 
             <h4>Website Design & Front-End Development</h4>
             <div class="popflex flex-grid">  
