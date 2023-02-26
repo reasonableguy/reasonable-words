@@ -102,7 +102,7 @@ max-width:100%;
     background-repeat: no-repeat;
     }
     
-.pop-flex-container h4{
+.pop-flex-container h4, .pop-flex h4{
 width:100%;
 font-size:1.9vw;
 }
@@ -293,8 +293,9 @@ font-size:3.6vw;
                         <p class="caption">I work with the founder of Blended For You to provide on-going design and technical support for their ecommerce website, their Toronto store, and various collaborations with commercial partners.<br></br>This covers everything from creating the artwork files for their packaging or creating store signage and marketing assets to creating new product pages in Shopify or custom building a new way for guests to order subscriptions. 
                         </p>
 
-            <h4>Website Design & Front-End Development</h4>
-            <div class="popflex flex-grid">  
+            <div class="popflex flex-grid"> 
+                        <h4>Website Design & Front-End Development</h4>
+
                 <div class="flex-item  half">
                     <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
                 </div>
@@ -303,8 +304,9 @@ font-size:3.6vw;
                 </div>
             </div>
             
-            <h4>Store Signage</h4>
             <div class="popflex flex-grid">  
+                        <h4>Store Signage</h4>
+
                 <div class="flex-item  one-third flex-inner">
                     <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
                     <img src="https://d33wubrfki0l68.cloudfront.net/1f9d6c36-a1c8-466b-94ee-54af4d6152e8/wb-bfy-menu-cards-copy.jpg">
@@ -317,8 +319,9 @@ font-size:3.6vw;
                 </div>
             </div>
 
-            <h4>Packaging Design</h4>
             <div class="popflex flex-grid">
+                        <h4>Packaging Design</h4>
+
                 <div class="flex-item two-fifths">
                     <img src="https://d33wubrfki0l68.cloudfront.net/b6ada591-e594-4871-8edb-420466173d72/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
                 </div>
@@ -330,8 +333,9 @@ font-size:3.6vw;
 
   
 
-            <h4>Ads & Marketing</h4>
             <div class="popflex flex-grid">  
+                        <h4>Ads & Marketing</h4>
+
                 <div class="flex-item flex-inner half">
                     <img src="https://d33wubrfki0l68.cloudfront.net/e7ca24b7-8d19-4be2-b87b-5c8c7b25c6ab/wb-bfy-Green-Smoothie-Cleanse-1200x667-text-2-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/d119365b-1ea4-41b7-ada7-4db6857feed8/wb-bfy-Woman-Cleanse-1200x667-copy-3.jpg">
                 </div>
