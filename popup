@@ -365,20 +365,39 @@ font-size:3.6vw;
                   <p class="caption">
                   I led the writing team in lululemon’s internal creative department. We created weekly online campaigns, 
                   online and offline marketing, and product education. The tone is light-hearted and always focuses on education.</p>
+<div class="popflex flex-grid">  
+                        <h4>Educational Web Campaign Copy</h4>
 
+                <div class="flex-item  one-third flex-inner">
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/434bcd48-6a7b-45b1-84cf-f14eb76ca635/lulu%20sweatlife-ORIG.png">
 
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/355cd765-0e01-40c0-bdfc-1ae65ea042cd/lululemon-miami-beachwear-1.jpg">
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/5f5878bd-91ee-4c2c-b364-922fdf410a12/lululemon-miami-beachwear-2.jpg">
-<img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/c3d283d7-fdf8-40a3-8e5b-8f5a421ecc3a/lululemon-fall-category-banners-2012-bras.jpg">
+</div>
+</div>
+<div class="popflex flex-grid">  
+                        <h4>Collection Banner Copy</h4>
+
+                <div class="flex-item  one-third flex-inner"><img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/c3d283d7-fdf8-40a3-8e5b-8f5a421ecc3a/lululemon-fall-category-banners-2012-bras.jpg">
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/06da8723-70ac-496a-832d-dd07b2ec0c8a/lululemon-fall-category-banners-2012-equipment.jpg">
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/bd8e4363-8004-4359-8611-0e6ed612a628/lululemon-fall-category-banners-2012-mats.jpg">
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/cae5a8c7-0e08-4e4d-9db0-9e815437c1d7/FallCategoryBanners-U-GC.jpg">
+</div>
+</div>
+<div class="popflex flex-grid">  
+                        <h4>Product Educational Copy</h4>
 
-
+                <div class="flex-item  one-third flex-inner">
 <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/023b4a33-3e82-47d4-9879-d3633c9a5e51/lululwmon-how-to-measure-img.jpg">
-<img class="gap our-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
-                 
+</div>
+</div>
+<div class="popflex flex-grid">  
+                        <h4>Fun Product Copy</h4>
+
+                <div class="flex-item  one-third flex-inner">
+                <img class="gap our-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
+       </div>
+</div>          
                 
 </div>
               </div>
