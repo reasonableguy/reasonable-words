@@ -368,14 +368,14 @@ opacity: 1;
   border-radius: 5px;
   transition: all 0s ease-in-out;
 	    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 2.5%;
+    left: 2.5%;
+    right: 2.5%;
+    bottom: 2.5%;
     background-color: rgba(255,255,255, 1);
       margin: 3px auto;
-    width: calc(100% - 6px);
-    height: calc(100% - 6px);
+    width: calc(100% - 5%);
+    height: calc(100% - 5%);
 	  border: solid var(--color-main) 1px;
 }
 
