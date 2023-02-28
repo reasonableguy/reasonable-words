@@ -396,15 +396,15 @@ font-size:3.6vw;
 <div class="popflex flex-grid">  
                         <h4>Product Educational Copy</h4>
 
-                <div class="flex-item  one-third flex-inner">
-<img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/023b4a33-3e82-47d4-9879-d3633c9a5e51/lululwmon-how-to-measure-img.jpg">
+                <div class="flex-item  four-fifths sm-whole">
+<img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/023b4a33-3e82-47d4-9879-d3633c9a5e51/lululwmon-how-to-measure-img.jpg">
 </div>
 </div>
 <div class="popflex flex-grid">  
                         <h4>Fun Product Copy</h4>
 
-                <div class="flex-item  one-third flex-inner">
-                <img class="gap our-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
+                <div class="flex-item    four-fifths sm-whole">
+                <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
        </div>
 </div>          
                 
