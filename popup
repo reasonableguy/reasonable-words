@@ -435,18 +435,16 @@ font-size:3.6vw;
                 <div class="content">
                    <p class="caption"> blah blah blah.</p>
 <div class="popflex flex-grid">  
-                        <h4>Collection Banner Copy</h4>
-
-                <div class="flex-item half flex-inner">
-               <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/dae556fd-3a79-42a8-83fc-044213d8583a/freybe.com_products_dry-spanish-chorizo_(macbook).jpg">
- <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/b9bdc8f5-f6dd-43f1-a610-d5d64cdb6ab7/freybe.com_(macbook).jpg">
-
-
+     <h4>Product Description Pages</h4>
+     <div class="flex-item four-fifths sm-whole">
+         <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/dae556fd-3a79-42a8-83fc-044213d8583a/freybe.com_products_dry-spanish-chorizo_(macbook).jpg">
+     </div>
 </div>
-<div class="flex-item half flex-inner">
-<img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/ac5b1f88-22d4-4d18-9756-b3064f8bcb83/freybe.com_inspirations_charcuterie-tips_(macbook)-(1).jpg">
-
-</div>
+<div class="popflex flex-grid">  
+     <h4>Long Form Articles</h4>
+     <div class="flex-item four-fifths sm-whole">
+        <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/ac5b1f88-22d4-4d18-9756-b3064f8bcb83/freybe.com_inspirations_charcuterie-tips_(macbook)-(1).jpg">
+    </div>
 </div>
      
                  
