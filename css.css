@@ -382,6 +382,7 @@ opacity: 1;
 .popup h3 {
   margin-top: 0;
   color: var(--color-main);
+	margin-block-end: 5px;
 }
 	
 	
