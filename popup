@@ -13,7 +13,7 @@ margin: auto auto 20px auto;
 margin-bottom:5px;
 }
 .one-quarter{
-max-width:calc(25% - 40px);
+max-width:calc(25% - 40px);dash
 }
 .half{
 max-width:calc(50% - 40px);
@@ -236,7 +236,7 @@ font-size:3.6vw;
                 <h3>WEB DEV</h3>
                 <a class="close" href="#services">&times;</a>
                 <div class="content">
-  <p class="caption">I specialize in customization and web development for clients who want to turn their website into a thriving Shopify e-commerce store. The work allows me to combine my design, UX and copywriting skills&m-dash;that I developed in-house at lululemon and SHOES.COM&m-dash;with my programming skills and in-depth knowledge of Shopify's platform.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
+  <p class="caption">I specialize in customization and web development for clients who want to turn their website into a thriving Shopify e-commerce store. The work allows me to combine my design, UX and copywriting skills&mdash;that I developed in-house at lululemon and SHOES.COM&mdash;with my programming skills and in-depth knowledge of Shopify's platform.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
 
 <div class="bigflex">
 <div class="pop-flex-container">
