@@ -315,7 +315,9 @@ form {
 }
 }
 /* ------------------------------POPUP--------------------------*/
-
+.popup .flex-item {
+	box-shadow: 4px 4px 8px rgb(0 0 0 / 50%);
+}
 .content > img {
 width:100%;
 }
