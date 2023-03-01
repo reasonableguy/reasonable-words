@@ -580,7 +580,8 @@ margin: 2.5%;
 img {
 	max-width:100%
 }
-.service img {
+img.icon {
 	max-width:25%;
+	margin:auto;
 }
 
