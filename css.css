@@ -580,4 +580,7 @@ margin: 2.5%;
 img {
 	max-width:100%
 }
+.service img {
+	max-width:25%;
+}
 
