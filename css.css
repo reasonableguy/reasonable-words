@@ -449,7 +449,7 @@ opacity: 1;
 }
 
 .flex-grid.section {
-      max-width: 1024px;
+      max-width: 768px;
     margin: auto;
     width: 66%;
 }
@@ -582,6 +582,10 @@ img {
 }
 img.icon {
 	max-width:25%;
+	margin:auto;
+}
+.worklogo  {
+	max-width:50%;
 	margin:auto;
 }
 
