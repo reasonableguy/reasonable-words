@@ -415,7 +415,7 @@ opacity: 1;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(255,255,255, 0.9);
+    background-color: rgba(255,255,255, 1);
      margin: 3px auto;
     width: calc(100% - 6px);
     height: calc(100% - 6px);
