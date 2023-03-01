@@ -139,6 +139,16 @@ a {
 			    color: var(--color-highlight-two);
 			font-weight:500;
    		}
+
+@media screen and (max-width: 768px) {
+.page {
+	min-height:calc(100% - 130px);
+}
+	.sectionpage::after {
+    height: 130px;
+}	
+}
+
   /* ------------------------- NAV MOBILE ----------------------------*/
 
 .desktop {
