@@ -580,7 +580,7 @@ margin: 2.5%;
 img {
 	max-width:100%
 }
-img.icon, .worklogo  {
+img.icon  {
 	max-width:50%;
 	margin:auto;
 }
