@@ -334,6 +334,9 @@ width:100%;
 	.button img{
   border: solid transparent 2px;
 } 
+.row {
+    border: solid transparent 2px;
+}
 .row:hover {
   border: solid var(--color-main) 2px;
 } 
