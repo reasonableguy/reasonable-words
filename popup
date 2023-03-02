@@ -95,14 +95,6 @@ max-width:100%;
 .pop-flex-container:only-child {
     margin: 5px auto;
     }
-.pop-flex-container a{
-    width: 33%;
-    margin: 2.5% 8.5%;
-    height: 0;
-    padding-bottom: 33%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    }
 
 .pop-flex-container  div{
     width: 100%;
@@ -205,7 +197,7 @@ div style="background-image:url('https://64.media.tumblr.com/fd5935046ad4d5baabc
 <div class="pop-flex-container">
 <h4>Packaging</h4>
 <div style="background-image:url('https://64.media.tumblr.com/de69cb97f25b533989d9387dff312236/tumblr_inline_qp3teiNbcA1qbxyt6_500.png')" alt="Assembli Square" ></div>
-<a href="https://blendedforyousmoothies.com/" target="_blank"> <div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div></a>
+<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" ></div>
 <div style="background-image:url('https://64.media.tumblr.com/0fbff2477569f10e4bd03c0ed29f9d75/tumblr_inline_qp3t9tb3PX1qbxyt6_500.png')" alt="Rise Kombucha" ></div>
 </div>    
