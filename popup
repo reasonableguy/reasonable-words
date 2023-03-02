@@ -43,38 +43,38 @@ max-width:calc(80% - 40px);
 
 
 .popflex.flex-grid{
-display: flex;
-flex-direction: row;
-justify-content: center;
-border: 1px solid var(--color-main);
-margin-bottom: 40px;
-padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+             border: 1px solid var(--color-main);
+             margin-bottom: 40px;
+             padding:20px;
 }
 .flex-item {
 justify-content: space-around;
-float: left;
-flex: 1 0 auto;
+    float: left;
+       flex: 1 0 auto;
 }
 .flex-inner{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
 }
 .flex-inner > img:not(:last-child) {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 .content p {
-margin: 16px auto;
-}
-
+    margin: 16px auto;
+    }
+    
 img{
 max-width:100%;
 }
 @media (max-width: 768px){
 .popflex {
-flex-direction: column !important;
-
+    flex-direction: column !important;
+    
 }
 .popflex > .flex-item {
 max-width:90%;
@@ -83,27 +83,27 @@ max-width:90%;
 max-width:100%;
 }
 </style>
-<style>
+ <style>
 .pop-flex-container {
-display: flex;
-width:calc(50% - 20px);
-flex-wrap: wrap;
-border: 1px solid var(--color-main);
-padding: 20px;
-margin: 5px;
+  display: flex;
+  width:calc(50% - 20px);
+  flex-wrap: wrap;
+  border: 1px solid var(--color-main);
+    padding: 20px;
+    margin: 5px;
 }
 .pop-flex-container:only-child {
-margin: 5px auto;
-}
+    margin: 5px auto;
+    }
 .pop-flex-container > div {
-width: 33%;
-margin: 2.5% 8.5%;
-height: 0;
-padding-bottom: 33%;
-background-size: contain;
-background-repeat: no-repeat;
-}
-
+    width: 33%;
+    margin: 2.5% 8.5%;
+    height: 0;
+    padding-bottom: 33%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    
 .pop-flex-container h4, .popflex h4{
 width:100%;
 font-size:1.9vw;
@@ -111,13 +111,13 @@ font-size:1.9vw;
 
 .bigflex{
 display: flex;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 @media (max-width: 768px){
 .pop-flex-container {
-display: flex;
-width:100%;
-flex-wrap: wrap;
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
 }
 .pop-flex-container h4{
 width:100%;
@@ -126,296 +126,247 @@ font-size:3.6vw;
 }
 </style>
 <div id="strategypop" class="overlay5">
-<div class="popup">
-<h3>STRATEGY</h3>
-<a class="close" href="#services">&times;</a>
-<div class="content">
+              <div class="popup">
+                <h3>STRATEGY</h3>
+                <a class="close" href="#services">&times;</a>
+                <div class="content">
 <p class="caption">I provide both brand strategy and content strategy. I work with agencies, or directly with businesses, to help clients express, clearly and consistently, who they are and what they stand for. With content strategy, I work with brands to identify where and how to talk to their audiences and to establish underlying principles for their tone and voice.<br><br><strong><br>A few organisations I've had the pleasure of working with:</strong></p>
-
+                            
 <div class="bigflex">
 <div class="pop-flex-container">
 <h4>Brand Identity</h4>
-
-
-<div style="background-image:url('https://64.media.tumblr.com/fd5935046ad4d5baabc797776a11af6f/tumblr_inline_qnk975itnT1qbxyt6_500.png')" alt="HCMA Architecture + Design" >
-
-<div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" >
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/e71c36d7-bd3a-4df8-9c46-6f1655e10b31/500%20Dossier.png')" alt="Dossier">
+<div style="background-image:url('https://64.media.tumblr.com/fd5935046ad4d5baabc797776a11af6f/tumblr_inline_qnk975itnT1qbxyt6_500.png')" alt="HCMA Architecture + Design" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/e71c36d7-bd3a-4df8-9c46-6f1655e10b31/500%20Dossier.png')" alt="Dossier"></div>
 <div style="background-image:url('https://64.media.tumblr.com/bcf32af2683f64d0bf901a03d2e24909/tumblr_inline_qp3tf1UJDj1qbxyt6_500.png')" alt="Shoes.com square" ></div>
 </div>
-
 <div class="pop-flex-container">
 <h4>Voice & Tone</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/f98f93cf340faa40700f0e8b80fea0c0/tumblr_inline_qp3tadpXLs1qbxyt6_500.png')" alt="Fresh Tracks Canada" >
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/eaa963b8-6f25-458d-93d8-d96c958e79df/500%20Freybe.png')" alt="Freybe">
-
-<div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" >
-
-<div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" >
+<div style="background-image:url('https://64.media.tumblr.com/f98f93cf340faa40700f0e8b80fea0c0/tumblr_inline_qp3tadpXLs1qbxyt6_500.png')" alt="Fresh Tracks Canada" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/eaa963b8-6f25-458d-93d8-d96c958e79df/500%20Freybe.png')" alt="Freybe"></div>
+<div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" ></div>
 </div>
+
 </div>
 </div></div></div>
-
-<div id="wordspop" class="overlay6">
-<div class="popup">
-<h3>WORDS</h3>
-<a class="close" href="#services">&times;</a>
-<div class="content">
-<p class="caption">Words are my bread and butter. In my spare time, I love to get a mouthful of them, let the flavours sit on my tongue so that later I can serve up the perfect word at the right moment.
-I've worked in-house or freelance in advertising and marketing, journalism, education, and ecommerce and the web. I specialize in short form copy (e.g., not blog posts) and aim to convey ideas and essences in as few words as possible.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
-
+            
+            <div id="wordspop" class="overlay6">
+              <div class="popup">
+                <h3>WORDS</h3>
+                <a class="close" href="#services">&times;</a>
+                <div class="content">
+                  <p class="caption">Words are my bread and butter. In my spare time, I love to get a mouthful of them, let the flavours sit on my tongue so that later I can serve up the perfect word at the right moment.
+                  I've worked in-house or freelance in advertising and marketing, journalism, education, and ecommerce and the web. I specialize in short form copy (e.g., not blog posts) and aim to convey ideas and essences in as few words as possible.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
+               
 <div class="bigflex">
 <div class="pop-flex-container">
 <h4>Ecommerce</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" >
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/eaa963b8-6f25-458d-93d8-d96c958e79df/500%20Freybe.png')" alt="Freybe">
-
-<div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" >
-
-<div style="background-image:url('https://64.media.tumblr.com/c0a1876cf0a9a2968ab3d13b479ccffe/tumblr_inline_qp3uptXoHN1qbxyt6_500.png')" alt="siegel's bagels" ></div>    </a>
+<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/eaa963b8-6f25-458d-93d8-d96c958e79df/500%20Freybe.png')" alt="Freybe"></div>
+<div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/c0a1876cf0a9a2968ab3d13b479ccffe/tumblr_inline_qp3uptXoHN1qbxyt6_500.png')" alt="siegel's bagels" ></div>    
 </div> 
 
 <div class="pop-flex-container">
 <h4>Web Copy</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/6543901dd28e38a3ee0aaad12d5b1422/tumblr_inline_qp3tb2jJAT1qbxyt6_500.png')" alt="BCAA" >
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/8ec98805-986c-48cd-84e2-1e01aec8373d/500%20Bluesky%20Properties.png')" alt="Blue Sky Properties">
-
-<div style="background-image:url('https://64.media.tumblr.com/f98f93cf340faa40700f0e8b80fea0c0/tumblr_inline_qp3tadpXLs1qbxyt6_500.png')" alt="Fresh Tracks Canada" >
-
-<div style="background-image:url('https://64.media.tumblr.com/d270092dd8a678f76c61ff56ac49905c/tumblr_inline_qp3tb9BgiE1qbxyt6_500.png')" alt="ProShow Audiovisual" >
+<div style="background-image:url('https://64.media.tumblr.com/6543901dd28e38a3ee0aaad12d5b1422/tumblr_inline_qp3tb2jJAT1qbxyt6_500.png')" alt="BCAA" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/8ec98805-986c-48cd-84e2-1e01aec8373d/500%20Bluesky%20Properties.png')" alt="Blue Sky Properties"></div>
+<div style="background-image:url('https://64.media.tumblr.com/f98f93cf340faa40700f0e8b80fea0c0/tumblr_inline_qp3tadpXLs1qbxyt6_500.png')" alt="Fresh Tracks Canada" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/d270092dd8a678f76c61ff56ac49905c/tumblr_inline_qp3tb9BgiE1qbxyt6_500.png')" alt="ProShow Audiovisual" ></div>
 </div> 
 
 <div class="pop-flex-container">
 <h4>Not-for-Profit Awareness Campaigns</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" >
-
-<div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" >
-
-<div style="background-image:url('https://64.media.tumblr.com/97aca8916c542fdab25746db8b7cb749/tumblr_inline_qp3tfoE7OC1qbxyt6_500.png')" alt="RainCity Housing Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/bf8f8b61e284f0c98e4c702cba49ae24/tumblr_inline_qp3t9x3OHh1qbxyt6_500.png')" alt="Teach to One Math Square" >
+<div style="background-image:url('https://64.media.tumblr.com/17bce0eb50a6bb2d3f16b9d5dab3cc61/tumblr_inline_qp3ta9NE1s1qbxyt6_500.png')" alt="Juvenile Diabetes Research Foundation" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/806c46fa2718e8180ef8ecce2b106d3d/tumblr_inline_qnltiyXoTR1qbxyt6_500.jpg')" alt="navigate stl" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/97aca8916c542fdab25746db8b7cb749/tumblr_inline_qp3tfoE7OC1qbxyt6_500.png')" alt="RainCity Housing Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/bf8f8b61e284f0c98e4c702cba49ae24/tumblr_inline_qp3t9x3OHh1qbxyt6_500.png')" alt="Teach to One Math Square" ></div>
 </div> 
 
 <div class="pop-flex-container">
 <h4>Editing</h4>
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/bcf56ba9-3e60-48ce-a7e1-1989a36227be/500%20Hootsuite.png')" alt="Hootsuite">
-
-<div style="background-image:url('https://64.media.tumblr.com/8df8e9ac930acb044ca12eb059470184/tumblr_inline_qp3tde7E7f1qbxyt6_500.png')" alt="Vanedge Capital" >
-
-<div style="background-image:url('https://64.media.tumblr.com/7582c507453cd0cbc95a2062653bdfd4/tumblr_inline_qp40qzck501qbxyt6_500.png')" alt="Teck" >
-
-<div style="background-image:url('https://64.media.tumblr.com/c4c49632481d1c1345b735ca96299442/tumblr_inline_qp3tenCpjd1qbxyt6_500.png')" alt="Early English Text Society" >
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/bcf56ba9-3e60-48ce-a7e1-1989a36227be/500%20Hootsuite.png')" alt="Hootsuite"></div>
+<div style="background-image:url('https://64.media.tumblr.com/8df8e9ac930acb044ca12eb059470184/tumblr_inline_qp3tde7E7f1qbxyt6_500.png')" alt="Vanedge Capital" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/7582c507453cd0cbc95a2062653bdfd4/tumblr_inline_qp40qzck501qbxyt6_500.png')" alt="Teck" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/c4c49632481d1c1345b735ca96299442/tumblr_inline_qp3tenCpjd1qbxyt6_500.png')" alt="Early English Text Society" ></div>
 </div> 
 
 <div class="pop-flex-container">
 <h4>Packaging</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/de69cb97f25b533989d9387dff312236/tumblr_inline_qp3teiNbcA1qbxyt6_500.png')" alt="Assembli Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" >
-
-<div style="background-image:url('https://64.media.tumblr.com/0fbff2477569f10e4bd03c0ed29f9d75/tumblr_inline_qp3t9tb3PX1qbxyt6_500.png')" alt="Rise Kombucha" >
+<div style="background-image:url('https://64.media.tumblr.com/de69cb97f25b533989d9387dff312236/tumblr_inline_qp3teiNbcA1qbxyt6_500.png')" alt="Assembli Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/3492488a761ed49d85b3562e2702de14/tumblr_inline_qp3tg9YeaY1qbxyt6_500.png')" alt="lululemon" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/0fbff2477569f10e4bd03c0ed29f9d75/tumblr_inline_qp3t9tb3PX1qbxyt6_500.png')" alt="Rise Kombucha" ></div>
 </div>    
 
 <div class="pop-flex-container">
 <h4>Education Institutions</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/5961cfa8d3e1a4c1a7d7a922fa32f04a/tumblr_inline_qp40iqwcSj1qbxyt6_500.png')" alt="College of New Caledonia Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/ae68d15adc05600ddf087ff58d9f567e/tumblr_inline_qp3terZA6G1qbxyt6_500.png')" alt="Simon Fraser University" >
-
-<div style="background-image:url('https://64.media.tumblr.com/3f21b3a452c03fc751f17fab19e7c596/tumblr_inline_qp3tfjmzVa1qbxyt6_500.png')" alt="The University of British Columbia Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/e51fe49a97f9e61867fd2e35e9a70efb/tumblr_inline_qp3tczGTkW1qbxyt6_500.png')" alt="Vancouver Film School Square" >
+<div style="background-image:url('https://64.media.tumblr.com/5961cfa8d3e1a4c1a7d7a922fa32f04a/tumblr_inline_qp40iqwcSj1qbxyt6_500.png')" alt="College of New Caledonia Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/ae68d15adc05600ddf087ff58d9f567e/tumblr_inline_qp3terZA6G1qbxyt6_500.png')" alt="Simon Fraser University" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/3f21b3a452c03fc751f17fab19e7c596/tumblr_inline_qp3tfjmzVa1qbxyt6_500.png')" alt="The University of British Columbia Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/e51fe49a97f9e61867fd2e35e9a70efb/tumblr_inline_qp3tczGTkW1qbxyt6_500.png')" alt="Vancouver Film School Square" ></div>
 </div>         
 
 <div class="pop-flex-container">
 <h4>Advertising & Marketing</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/1e17d8f25b864d098cc9dc5ef8d5bfb4/tumblr_inline_qp3tfzxa0d1qbxyt6_500.png')" alt="BC Hydro Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/16ff3b10650746b7439798922be303e1/tumblr_inline_qp3tfaWgGP1qbxyt6_500.png')" alt="Destination Canada Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/0c21e9fceba524abe5af23dd52d8a3bf/tumblr_inline_qp3tft4OE31qbxyt6_500.png')" alt="Pacific Blue Cross Square" >
-
-<div style="background-image:url('https://64.media.tumblr.com/18a2a37b83fdaa52b66b1eaa79507f5c/tumblr_inline_qp3tf5eKwR1qbxyt6_500.png')" alt="Tourism British Columbia" >
+<div style="background-image:url('https://64.media.tumblr.com/1e17d8f25b864d098cc9dc5ef8d5bfb4/tumblr_inline_qp3tfzxa0d1qbxyt6_500.png')" alt="BC Hydro Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/16ff3b10650746b7439798922be303e1/tumblr_inline_qp3tfaWgGP1qbxyt6_500.png')" alt="Destination Canada Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/0c21e9fceba524abe5af23dd52d8a3bf/tumblr_inline_qp3tft4OE31qbxyt6_500.png')" alt="Pacific Blue Cross Square" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/18a2a37b83fdaa52b66b1eaa79507f5c/tumblr_inline_qp3tf5eKwR1qbxyt6_500.png')" alt="Tourism British Columbia" ></div>
 </div>         
 
 <div class="pop-flex-container">
 <h4>Journalism</h4>
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/c7e351f3-0ab6-45f1-974b-ef67ea551eda/500%20BC%20Living.png')" alt="BC Living">
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/02f5525b-2781-4034-9130-3195778078f3/500%20Harbour%20Air.png')" alt="Harbour Air">
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/2b4a8e81-c1cc-4067-8a5a-0b31132086fb/500%20Simplify.jpg')" alt="Simplify">
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/538b2bfc-84f8-44e4-84d4-2f2f12623046/500%20Western%20Living.png')" alt="Western Living">
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/c7e351f3-0ab6-45f1-974b-ef67ea551eda/500%20BC%20Living.png')" alt="BC Living"></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/02f5525b-2781-4034-9130-3195778078f3/500%20Harbour%20Air.png')" alt="Harbour Air"></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/2b4a8e81-c1cc-4067-8a5a-0b31132086fb/500%20Simplify.jpg')" alt="Simplify"></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/538b2bfc-84f8-44e4-84d4-2f2f12623046/500%20Western%20Living.png')" alt="Western Living"></div>
 </div>         
+
+
+
 </div>
 </div>
 </div>
 </div>
 
-<div id="webdevpop" class="overlay7">
-<div class="popup">
-<h3>WEB DEV</h3>
-<a class="close" href="#services">&times;</a>
-<div class="content">
-<p class="caption">I specialize in customization and web development for clients who want to turn their website into a thriving Shopify e-commerce store. The work allows me to combine my design, UX and copywriting skills&mdash;that I developed in-house at lululemon and SHOES.COM&mdash;with my programming skills and in-depth knowledge of Shopify's platform.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
+            <div id="webdevpop" class="overlay7">
+              <div class="popup">
+                <h3>WEB DEV</h3>
+                <a class="close" href="#services">&times;</a>
+                <div class="content">
+  <p class="caption">I specialize in customization and web development for clients who want to turn their website into a thriving Shopify e-commerce store. The work allows me to combine my design, UX and copywriting skills&mdash;that I developed in-house at lululemon and SHOES.COM&mdash;with my programming skills and in-depth knowledge of Shopify's platform.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
 
 <div class="bigflex">
 <div class="pop-flex-container">
 <h4>Shopify E-Commerce</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" >
-
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/ec1be5f4-7495-44e9-971e-b6d2bbdd6265/500%20Chef%20Cherise.png')" alt="Chef Cherise" >
-
-
-<div style="background-image:url('https://64.media.tumblr.com/c0a1876cf0a9a2968ab3d13b479ccffe/tumblr_inline_qp3uptXoHN1qbxyt6_500.png')" alt="siegel's bagels" >
-
-
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/0fcd9a2b-1d49-4dc9-a1c7-a13fcd255f18/500%20We%20Care.png')" alt="We Care" >
+<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/ec1be5f4-7495-44e9-971e-b6d2bbdd6265/500%20Chef%20Cherise.png')" alt="Chef Cherise" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/c0a1876cf0a9a2968ab3d13b479ccffe/tumblr_inline_qp3uptXoHN1qbxyt6_500.png')" alt="siegel's bagels" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/0fcd9a2b-1d49-4dc9-a1c7-a13fcd255f18/500%20We%20Care.png')" alt="We Care" ></div>
 </div>
 </div>
 
 </div>
-</div>
-</div>
-
-<div id="designpop" class="overlay8">
-<div class="popup">
-<h3>DESIGN</h3>
-<a class="close" href="#services">&times;</a>
-<div class="content">
-<p class="caption">Working in-house as the director of creative service helped hone my eye for design. As well as giving design input on projects and laying out production design in web development, I also create signage and packaging.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
-
+              </div>
+            </div>
+            
+            <div id="designpop" class="overlay8">
+              <div class="popup">
+                <h3>DESIGN</h3>
+                <a class="close" href="#services">&times;</a>
+                <div class="content">
+                  <p class="caption">Working in-house as the director of creative service helped hone my eye for design. As well as giving design input on projects and laying out production design in web development, I also create signage and packaging.<br><br><strong>A few organisations I've had the pleasure of working with:</strong></p>
+              
 <div class="bigflex">
 <div class="pop-flex-container">
 <h4>Web & Packaging Design</h4>
-
-<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" >
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/ec1be5f4-7495-44e9-971e-b6d2bbdd6265/500%20Chef%20Cherise.png')" alt="Chef Cherise" >
-
-<div style="background-image:url('https://64.media.tumblr.com/0fbff2477569f10e4bd03c0ed29f9d75/tumblr_inline_qp3t9tb3PX1qbxyt6_500.png')" alt="Rise Kombucha" >
-
-<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/0fcd9a2b-1d49-4dc9-a1c7-a13fcd255f18/500%20We%20Care.png')" alt="We Care" >
+<div style="background-image:url('https://64.media.tumblr.com/585e57ba3ba5f657c316e4e45a3ae215/tumblr_inline_qp3uq7mRYW1qbxyt6_500.png')" alt="Blended For You square" ></div>
+  <div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/ec1be5f4-7495-44e9-971e-b6d2bbdd6265/500%20Chef%20Cherise.png')" alt="Chef Cherise" ></div>
+<div style="background-image:url('https://64.media.tumblr.com/0fbff2477569f10e4bd03c0ed29f9d75/tumblr_inline_qp3t9tb3PX1qbxyt6_500.png')" alt="Rise Kombucha" ></div>
+<div style="background-image:url('https://d33wubrfki0l68.cloudfront.net/0fcd9a2b-1d49-4dc9-a1c7-a13fcd255f18/500%20We%20Care.png')" alt="We Care" ></div>
 </div>      
 </div>  </div>
-</div>
-</div>
+              </div>
+            </div>
 <div id="popup1" class="overlay1">
-<div class="popup">
-<h3>SHOES.COM</h3>
-<a class="close" href="#WORK">&times;</a>
-<div class="content">
-<p class="caption">I lead the brand writing&mdash;and later brand creative services&mdash;team. We wrote for one Canadian and two U.S. sites, and catered to the differeing demographic nuances. The images below for the Rules Are Made to Be Broken campaign show some of the signage we created for the Toronto brick-and-motar store, and the associated email push.</p><div class="popflex flex-grid">
-
-<img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg">
-<img class="gap four-fifths sm-whole"  src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
-<img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
+              <div class="popup">
+                <h3>SHOES.COM</h3>
+                <a class="close" href="#WORK">&times;</a>
+                <div class="content">
+                   <p class="caption">I lead the brand writing&mdash;and later brand creative services&mdash;team. We wrote for one Canadian and two U.S. sites, and catered to the differeing demographic nuances. The images below for the Rules Are Made to Be Broken campaign show some of the signage we created for the Toronto brick-and-motar store, and the associated email push.</p><div class="popflex flex-grid">
+                 
+                  <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/cba21e98-7653-45f5-b8f8-c5c984f398ad/TO.jpg">
+                  <img class="gap four-fifths sm-whole"  src="https://d33wubrfki0l68.cloudfront.net/cf95dfdf-76c3-4495-aef2-41ccc02ebc50/ladies-wear-heels.jpg">
+ <img class="gap four-fifths sm-whole" src="https://d33wubrfki0l68.cloudfront.net/1caa3931-d211-46e2-bf45-2abf0eab971d/071616-SDC-DrMartens.jpg">
 </div>
-</div>
-</div>
-</div>
-
+  </div>
+              </div>
+            </div>
+            
 <div id="popup2" class="overlay2">
-<div class="popup">
-<h3>Blended For You</h3>
-<a class="close" href="#WORK">×</a>
-<div class="content">
-<p class="caption">I work with the founder of Blended For You to provide on-going design and technical support for their ecommerce website, their Toronto store, and various collaborations with commercial partners.<br></br>This covers everything from creating the artwork files for their packaging or creating store signage and marketing assets to creating new product pages in Shopify or custom building a new way for guests to order subscriptions. 
-</p>
+    <div class="popup">
+        <h3>Blended For You</h3>
+        <a class="close" href="#WORK">×</a>
+        <div class="content">
+                        <p class="caption">I work with the founder of Blended For You to provide on-going design and technical support for their ecommerce website, their Toronto store, and various collaborations with commercial partners.<br></br>This covers everything from creating the artwork files for their packaging or creating store signage and marketing assets to creating new product pages in Shopify or custom building a new way for guests to order subscriptions. 
+                        </p>
 
-<div class="popflex flex-grid"> 
-<h4>Website Design & Front-End Development</h4>
+            <div class="popflex flex-grid"> 
+                        <h4>Website Design & Front-End Development</h4>
 
-<div class="flex-item  half">
-<img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
-</div>
-<div class="flex-item  half">
-<img src="https://d33wubrfki0l68.cloudfront.net/8db7124b-9c9a-44d0-b6c5-40ce81d210f4/subscription-page.jpg">
-</div>
-</div>
+                <div class="flex-item  half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/8b02e6f2-1b7a-4329-af57-49362fbdf6a4/web-home-cropped.jpg">
+                </div>
+                <div class="flex-item  half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/8db7124b-9c9a-44d0-b6c5-40ce81d210f4/subscription-page.jpg">
+                </div>
+            </div>
+            
+            <div class="popflex flex-grid">  
+                        <h4>Store Signage</h4>
 
+                <div class="flex-item  one-third flex-inner">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/1f9d6c36-a1c8-466b-94ee-54af4d6152e8/wb-bfy-menu-cards-copy.jpg">
+                </div>
+                <div class="flex-item one-third ">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/095f05f2-1d68-4fa9-968d-c184485033ee/wb-bfy---sandwich-board.jpg">
+                </div>
+                <div class="flex-item one-third ">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
+                </div>
+            </div>
+
+            <div class="popflex flex-grid">
+                        <h4>Packaging Design</h4>
+
+                <div class="flex-item two-fifths">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/b6ada591-e594-4871-8edb-420466173d72/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
+                </div>
+                <div class="flex-item flex-inner three-fifths">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/5e410d05-078a-4e32-a52f-2d4de92ab689/BFY-Blue-Coconut-Keto.jpg">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/c81d1997-77c0-47bc-bc09-d62db7ee2337/immunity-6-pack-rect.jpg">
+                </div>
+            </div>
+
+  
+
+            <div class="popflex flex-grid">  
+                        <h4>Ads & Marketing</h4>
+
+                <div class="flex-item flex-inner half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/e7ca24b7-8d19-4be2-b87b-5c8c7b25c6ab/wb-bfy-Green-Smoothie-Cleanse-1200x667-text-2-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/d119365b-1ea4-41b7-ada7-4db6857feed8/wb-bfy-Woman-Cleanse-1200x667-copy-3.jpg">
+                </div>
+                <div class="flex-item flex-inner half ">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/af077d4b-9ac6-47cf-a729-c3cc403db2f3/wb-bfy-Green-Daily-Dose-Cleanse-667x667-text-3-copy.jpg">
+                </div>
+                  <div class="flex-item flex-inner  half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/26233ba0-1dc9-4130-806f-dcbc34e0ad5c/wb-bfy-Blended-For-You-5x7-card-cleanse-reset-feb-2022-v22-copy.jpg">
+                </div>
+                <div class="flex-item flex-inner half">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
+                </div>
+              
+            </div>
+        </div>  
+    </div>
+</div>
+            
+           <div id="popup3" class="overlay3">
+              <div class="popup">
+                <h3>lululemon</h3>
+                <a class="close" href="#WORK">×</a>
+                <div class="content">
+                
+                  <p class="caption">
+                  I led the writing team in lululemon’s internal creative department. We created weekly online campaigns, 
+                  online and offline marketing, and product education. The tone is light-hearted and always focuses on education.</p>
 <div class="popflex flex-grid">  
-<h4>Store Signage</h4>
+                        <h4>Educational Web Campaign Copy</h4>
 
-<div class="flex-item  one-third flex-inner">
-<img src="https://d33wubrfki0l68.cloudfront.net/9cf5571c-2d32-490f-959a-840e9984aabc/wb-bfy-photo-wall-copy.jpg">
-<img src="https://d33wubrfki0l68.cloudfront.net/1f9d6c36-a1c8-466b-94ee-54af4d6152e8/wb-bfy-menu-cards-copy.jpg">
-</div>
-<div class="flex-item one-third ">
-<img src="https://d33wubrfki0l68.cloudfront.net/095f05f2-1d68-4fa9-968d-c184485033ee/wb-bfy---sandwich-board.jpg">
-</div>
-<div class="flex-item one-third ">
-<img src="https://d33wubrfki0l68.cloudfront.net/59d265fb-1770-40f3-a360-acbaa31202a7/wb-bfy-fridges-copy.jpg">
-</div>
-</div>
-
-<div class="popflex flex-grid">
-<h4>Packaging Design</h4>
-
-<div class="flex-item two-fifths">
-<img src="https://d33wubrfki0l68.cloudfront.net/b6ada591-e594-4871-8edb-420466173d72/BFY-Blue-Coconut-Keto-Smoothie---recycle.jpg">
-</div>
-<div class="flex-item flex-inner three-fifths">
-<img src="https://d33wubrfki0l68.cloudfront.net/5e410d05-078a-4e32-a52f-2d4de92ab689/BFY-Blue-Coconut-Keto.jpg">
-<img src="https://d33wubrfki0l68.cloudfront.net/c81d1997-77c0-47bc-bc09-d62db7ee2337/immunity-6-pack-rect.jpg">
-</div>
-</div>
-
-
-
-<div class="popflex flex-grid">  
-<h4>Ads & Marketing</h4>
-
-<div class="flex-item flex-inner half">
-<img src="https://d33wubrfki0l68.cloudfront.net/e7ca24b7-8d19-4be2-b87b-5c8c7b25c6ab/wb-bfy-Green-Smoothie-Cleanse-1200x667-text-2-copy.jpg"><img src="https://d33wubrfki0l68.cloudfront.net/d119365b-1ea4-41b7-ada7-4db6857feed8/wb-bfy-Woman-Cleanse-1200x667-copy-3.jpg">
-</div>
-<div class="flex-item flex-inner half ">
-<img src="https://d33wubrfki0l68.cloudfront.net/af077d4b-9ac6-47cf-a729-c3cc403db2f3/wb-bfy-Green-Daily-Dose-Cleanse-667x667-text-3-copy.jpg">
-</div>
-<div class="flex-item flex-inner  half">
-<img src="https://d33wubrfki0l68.cloudfront.net/26233ba0-1dc9-4130-806f-dcbc34e0ad5c/wb-bfy-Blended-For-You-5x7-card-cleanse-reset-feb-2022-v22-copy.jpg">
-</div>
-<div class="flex-item flex-inner half">
-<img src="https://d33wubrfki0l68.cloudfront.net/1fe617f0-3f98-47b3-9994-ca19343111b0/wb-bfy-Blended-For-You-5x7-card-teal-Welcome-2022-July-BACK-Final-copy.jpg">
-</div>
-
-</div>
-</div>  
-</div>
-</div>
-
-<div id="popup3" class="overlay3">
-<div class="popup">
-<h3>lululemon</h3>
-<a class="close" href="#WORK">×</a>
-<div class="content">
-
-<p class="caption">
-I led the writing team in lululemon’s internal creative department. We created weekly online campaigns, 
-online and offline marketing, and product education. The tone is light-hearted and always focuses on education.</p>
-<div class="popflex flex-grid">  
-<h4>Educational Web Campaign Copy</h4>
-
-<div class="flex-item  four-fifths sm-whole">
+                <div class="flex-item  four-fifths sm-whole">
 <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/434bcd48-6a7b-45b1-84cf-f14eb76ca635/lulu%20sweatlife-ORIG.png">
 </div>
 
@@ -428,9 +379,9 @@ online and offline marketing, and product education. The tone is light-hearted a
 </div>
 </div>
 <div class="popflex flex-grid">  
-<h4>Collection Banner Copy</h4>
+                        <h4>Collection Banner Copy</h4>
 
-<div class="flex-item half flex-inner"><img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/c3d283d7-fdf8-40a3-8e5b-8f5a421ecc3a/lululemon-fall-category-banners-2012-bras.jpg">
+                <div class="flex-item half flex-inner"><img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/c3d283d7-fdf8-40a3-8e5b-8f5a421ecc3a/lululemon-fall-category-banners-2012-bras.jpg">
 <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/06da8723-70ac-496a-832d-dd07b2ec0c8a/lululemon-fall-category-banners-2012-equipment.jpg">
 
 
@@ -441,85 +392,85 @@ online and offline marketing, and product education. The tone is light-hearted a
 <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/cae5a8c7-0e08-4e4d-9db0-9e815437c1d7/FallCategoryBanners-U-GC.jpg">
 </div></div>
 <div class="popflex flex-grid">  
-<h4>Product Educational Copy</h4>
+                        <h4>Product Educational Copy</h4>
 
-<div class="flex-item  four-fifths sm-whole">
+                <div class="flex-item  four-fifths sm-whole">
 <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/023b4a33-3e82-47d4-9879-d3633c9a5e51/lululwmon-how-to-measure-img.jpg">
 </div>
 </div>
 <div class="popflex flex-grid">  
-<h4>Fun Product Copy</h4>
+                        <h4>Fun Product Copy</h4>
 
-<div class="flex-item    four-fifths sm-whole">
-<img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
-</div>
+                <div class="flex-item    four-fifths sm-whole">
+                <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/50568596-9e9b-4f14-9ec3-d72e71e0dbd8/lululemon-waterbottle.jpg">
+       </div>
 </div>          
-
+                
 </div>
-</div>
-</div>
-
-<div id="popup4" class="overlay4">
-<div class="popup">
-<h3>ASSEMBLI</h3>
-<a class="close" href="#WORK">&times;</a>
-<div class="content">
-<p class="caption"> blah blah blah.</p>
-
+              </div>
+            </div>
+            
+            <div id="popup4" class="overlay4">
+              <div class="popup">
+                <h3>ASSEMBLI</h3>
+                <a class="close" href="#WORK">&times;</a>
+                <div class="content">
+                  <p class="caption"> blah blah blah.</p>
+                 
 <img  src="https://d33wubrfki0l68.cloudfront.net/5657e9d9-25bc-4850-9e5e-adc86f592b2c/Assembli%20Menu%201.png">
 
 <img  src="https://d33wubrfki0l68.cloudfront.net/abc4d353-78f9-4835-801c-e68aeeacc3aa/Assembli%20Menu%202.png">
 
 <img  src="https://d33wubrfki0l68.cloudfront.net/f8160372-c5c3-41d4-96b0-04ff5be3122b/Assembli%20Menu%203.png">
 </div>
-</div>
-</div>
-
-<div id="popup9" class="overlay9">
-<div class="popup">
-<h3>FREYBE</h3>
-<a class="close" href="#WORK">&times;</a>
-<div class="content">
-<p class="caption">I worked with Freybe while they were rebranding their range. I wrote product descriptions pages for all of their 100+ products, providing each product with a brief serving suggestion; I wrote a collection of long form articles designed to target key search words; and created a concise Brand Tone & Voice guide.
-</p>
+              </div>
+            </div>
+            
+            <div id="popup9" class="overlay9">
+              <div class="popup">
+                <h3>FREYBE</h3>
+                <a class="close" href="#WORK">&times;</a>
+                <div class="content">
+                   <p class="caption">I worked with Freybe while they were rebranding their range. I wrote product descriptions pages for all of their 100+ products, providing each product with a brief serving suggestion; I wrote a collection of long form articles designed to target key search words; and created a concise Brand Tone & Voice guide.
+                   </p>
 <div class="popflex flex-grid">  
-<h4>Product Description Pages</h4>
-<div class="flex-item four-fifths sm-whole">
-<img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/dae556fd-3a79-42a8-83fc-044213d8583a/freybe.com_products_dry-spanish-chorizo_(macbook).jpg">
-</div>
+     <h4>Product Description Pages</h4>
+     <div class="flex-item four-fifths sm-whole">
+         <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/dae556fd-3a79-42a8-83fc-044213d8583a/freybe.com_products_dry-spanish-chorizo_(macbook).jpg">
+     </div>
 </div>
 <div class="popflex flex-grid">  
-<h4>Long Form Articles</h4>
-<div class="flex-item four-fifths sm-whole">
-<img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/ac5b1f88-22d4-4d18-9756-b3064f8bcb83/freybe.com_inspirations_charcuterie-tips_(macbook)-(1).jpg">
+     <h4>Long Form Articles</h4>
+     <div class="flex-item four-fifths sm-whole">
+        <img class="gap whole" src="https://d33wubrfki0l68.cloudfront.net/ac5b1f88-22d4-4d18-9756-b3064f8bcb83/freybe.com_inspirations_charcuterie-tips_(macbook)-(1).jpg">
+    </div>
 </div>
-</div>
+     
+                 
+  </div>
+              </div>
+            </div>
+            
+            <div id="popup10" class="overlay10">
+              <div class="popup">
+                <h3>RAIN CITY HOUSING</h3>
+                <a class="close" href="#WORK">&times;</a>
+                <div class="content">
+                   <p class="caption"> 
+                   I worked on the written copy for RainCity Housing’s “Open” project. The project endeavoured to demonstrate how we are all affected by mental illness and to encourage users to be open to others' experiences. 
+                   The site took users on an interactive journey in which they could change the characters’ lives by adjusting acceptance and support. 
+                   It was one of the most challenging and rewarding projects I have ever worked on.</p>
+                   <div class="popflex flex-grid">
+                   <h4>Open (Your Eyes)</h4>
 
-
-</div>
-</div>
-</div>
-
-<div id="popup10" class="overlay10">
-<div class="popup">
-<h3>RAIN CITY HOUSING</h3>
-<a class="close" href="#WORK">&times;</a>
-<div class="content">
-<p class="caption"> 
-I worked on the written copy for RainCity Housing’s “Open” project. The project endeavoured to demonstrate how we are all affected by mental illness and to encourage users to be open to others' experiences. 
-The site took users on an interactive journey in which they could change the characters’ lives by adjusting acceptance and support. 
-It was one of the most challenging and rewarding projects I have ever worked on.</p>
-<div class="popflex flex-grid">
-<h4>Open (Your Eyes)</h4>
-
-<div style="max-width:90%;"class="flex-item  flex-inner">
-<img  src="https://d33wubrfki0l68.cloudfront.net/983f8fb9-d867-4c3e-92a3-8cf66646d0c9/Screen%20Shot%202017-02-01%20at%2010.35.43%20PM.png">
-
+                  <div style="max-width:90%;"class="flex-item  flex-inner">
+              <img  src="https://d33wubrfki0l68.cloudfront.net/983f8fb9-d867-4c3e-92a3-8cf66646d0c9/Screen%20Shot%202017-02-01%20at%2010.35.43%20PM.png">
+                    
 <img  src="https://d33wubrfki0l68.cloudfront.net/886ebac8-8778-4037-82cb-23633cfc48a1/rch.jpg">
 
 
-</div>
-</div>
-</div>
-</div>
-</div>
+   </div>
+ </div>
+  </div>
+              </div>
+            </div>
