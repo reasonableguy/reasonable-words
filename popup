@@ -98,7 +98,7 @@ max-width:100%;
 
 .pop-flex-container a  div{
     width: 100%;
-    margin: 2.5% 8.5%;
+    margin: 0;
     height: 0;
     padding-bottom: 100%;
     background-size: contain;
