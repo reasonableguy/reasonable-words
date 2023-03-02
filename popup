@@ -95,7 +95,7 @@ max-width:100%;
 .pop-flex-container:only-child {
     margin: 5px auto;
     }
-.pop-flex-container  div {
+.pop-flex-container  div, .pop-flex-container a{
     width: 33%;
     margin: 2.5% 8.5%;
     height: 0;
